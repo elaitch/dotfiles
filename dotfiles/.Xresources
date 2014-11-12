@@ -1,0 +1,85 @@
+Xft.antialias:  1
+Xft.dpi:        96
+Xft.hinting:    1
+Xft.hintstyle:  hintslight
+!Xft.hintstyle: full
+Xft.rgba:       rgb
+
+
+!--[Urxvt Options]--!
+URxvt.font:-*-termsyn-medium-*-*-*-14-*-*-*-*-*-*-*
+!URxvt.font:-*-dina-medium-r-*-*-10-*-*-*-*-*-*-*
+URxvt.italicFont:xft:droid sans mono:pixelsize=11:italic:antialias=true:hinting=true
+URxvt.scrollBar: false
+URxvt.skipBuiltinGlyphs: true
+URxvt.depth:       16
+URxvt.letterSpace: 0
+URxvt.fading:               0
+URxvt.boldMode: false
+URxvt.imLocale: en_US.utf8
+URxvt.loginShell: true
+URxvt.saveLines: 8192
+urxvt.geometry: 80x40
+URxvt.borderless: false
+URxvt.xftAntialias: true
+URxvt.jumpScroll: true
+URxvt.internalBorder: 5
+URxvt.cursorBlink: false
+URxvt.perl-ext-common : default,clipboard,url-select
+URxvt.keysym.M-u:       perl:url-select:select_next
+URxvt.keysym.M-Escape:  perl:keyboard-select:activate
+URxvt.keysym.M-s:       perl:keyboard-select:search
+URxvt.url-select.launcher: /usr/bin/firefox
+!--[URxvt.url-select.launcher:      /home/dome/vimp.sh
+URxvt.url-select.underline: true
+URxvt.matcher.button:   1 
+URxvt.underlineURLs: true
+URxvt.cursorUnderline:      false
+URxvt*transparent: false
+URxvt*shading: 0
+URxvt*background:            #222222
+URxvt*foreground:            #e6e6e6
+URxvt*cursorColor:           #61b3a5
+URxvt*colorBD:               #FFFFFF
+URxvt*colorUL:               #72BBAE
+urxvt*urgentOnBell: true
+dzen2.font:   -*-termsyn.icons-medium-*-*-*-14-*-*-*-*-*-*-*
+
+!black
+*color0:#222222
+*color8:#777777
+
+!red
+!*color1:#B36197
+*color1:#EF7BA4
+*color9:#C383AE
+
+!green
+*color2:#6197B3
+!*color2:#61B37C
+*color10:#C4E3DE
+!*color10:#83C398
+
+!yellow
+!color3:#FF8080 1st coral
+*color3:#FF9999
+*color11:#FAAFA8
+
+!blue
+*color4:#616EB3
+*color12:#838EC3
+!*color4:#7BA4EF
+!*color12:#7BDDEF
+
+!magenta
+*color5:#7c61b3
+*color13:#9883C3
+
+!cyan
+*color6:#61B3A5
+*color14:#83C3B9
+
+!white
+*color7:#fdfdfd
+*color15:#efefef
+!b3b3b3
