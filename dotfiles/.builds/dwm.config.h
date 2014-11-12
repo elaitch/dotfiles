@@ -1,4 +1,5 @@
 /* See LICENSE file for copyright and license details. */
+/* An incredibly ugly and probably outdated config.h for dwm 6, but it works */
 
 /* appearance */
 static const char font[]            = "-*-termsyn.icons-medium-*-*-*-14-*-*-*-*-*-*-*";
