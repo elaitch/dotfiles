@@ -29,7 +29,6 @@ static const Rule rules[] = {
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Gimp",     NULL,       NULL,       0,            True,        -1 },
         {  NULL ,     NULL,       "ranger",   1 << 3,       False,       -1 },
-         {  "Qbittorrent",     NULL,       NULL,   1 << 4,       False,       -1 },    
 	{  NULL,      NULL,       "Firefox Preferences",       0,            True, -1 },         
         {  NULL,      NULL,       "Tab Mix Plus Options",       0,            True, -1 },
         {  NULL,      NULL,       "Classic Theme Restorer",       0,            True, -1 },
@@ -66,7 +65,6 @@ static const char *termcmd[]  			= { "urxvtc", NULL };
 static const char   *mozcmd[] = { "firefox", NULL};
 static const char   *filecmd[] = { "urxvtc", "-title", "ranger", "-e", "ranger", NULL };
 static const char *tmuxcmd[] = { "urxvtc", "-title", "tmux", "-e", "tmuxinator start dome" };
-static const char   *leafcmd[] = { "leafpad", NULL };
 static const char   *chatcmd[] = { "google-chrome-stable", NULL };
 static const char *vimp[] = { "/home/dome/vimp.sh", NULL };
 
