@@ -1,3 +1,3 @@
 NOT ANOTHER DOTFILES REPO
 ========
-Clearly not a programmer. Tinkering as a means of procrastination. 
+I'm not a programmer, but I do enjoy tinkering as a means of procrastination.
