@@ -111,7 +111,7 @@ static unsigned int pagingkeep          = 40;   /* pixels kept when paging */
 static const int searchoptions          = CaseInsensitive | Wrapping;
 gboolean complete_case_sensitive        = TRUE;
 
-/* search engines */
+/* search engines -- maybe clean up that ridiculous GIS url? */
 static Searchengine searchengines[] = {
     { "g",         "http://www.google.com/search?hl=en&source=hp&ie=ISO-8859-l&q=%s" },
     { "bt",         "http://thepiratebay.se/search/%s" },
