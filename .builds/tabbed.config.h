@@ -28,7 +28,7 @@ static Bool npisrelative  = True;
 		p, winid, NULL \
 	} \
 }
-
+/* Use alt - N to switch tabs */
 #define MODKEY Mod1Mask
 static Key keys[] = { \
 	/* modifier                     key        function        argument */
