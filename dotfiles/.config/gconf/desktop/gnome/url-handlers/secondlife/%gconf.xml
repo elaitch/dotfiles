@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="enabled" mtime="1415842230" type="bool" value="true"/>
+	<entry name="command" mtime="1415842230" type="string">
+		<stringvalue>/opt/firestorm/etc/handle_secondlifeprotocol.sh &quot;%s&quot;</stringvalue>
+	</entry>
+</gconf>

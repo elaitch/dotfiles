@@ -1,0 +1,19 @@
+VirtualBox XPCOM Server 4.3.18_OSE r96516 linux.amd64 (Oct 11 2014 19:11:11) release log
+00:00:00.000411 main     Log opened 2014-11-01T14:38:31.853800000Z
+00:00:00.000412 main     Build Type: release
+00:00:00.000414 main     OS Product: Linux
+00:00:00.000415 main     OS Release: 3.17.1-1-ARCH
+00:00:00.000415 main     OS Version: #1 SMP PREEMPT Wed Oct 15 15:04:35 CEST 2014
+00:00:00.000433 main     DMI Product Name: All Series
+00:00:00.000438 main     DMI Product Version: System Version
+00:00:00.000480 main     Host RAM: 7927MB total, 5872MB available
+00:00:00.000482 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000483 main     Process ID: 2204
+00:00:00.000483 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.131227 nspr-2   Loading settings file "/home/dome/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.163060 nspr-2   HostDnsMonitorProxy: Host's DNS information updated:
+00:00:00.163068 nspr-2   DNS server 1: 64.59.160.13
+00:00:00.163070 nspr-2   DNS server 2: 64.59.161.68
+00:00:00.163089 nspr-2   Failed to open "/dev/vboxdrvu", errno=2, rc=VERR_VM_DRIVER_NOT_INSTALLED
+00:00:00.163971 nspr-2   VDInit finished
+00:00:08.047916 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={fafa4e17-1ee2-4905-a10e-fe7c18bf5554} aComponent={VirtualBox} aText={The object is not ready}, preserve=false

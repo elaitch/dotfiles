@@ -1,0 +1,36 @@
+{
+   "checksum": "2261604e1e98f38bdf585b0ca721fee1",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13057250332429478",
+            "id": "5",
+            "name": "Netflix",
+            "type": "url",
+            "url": "http://www.netflix.com/WiHome"
+         } ],
+         "date_added": "13057250275120541",
+         "date_modified": "13057734202897862",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13057250275120545",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13057250275120546",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

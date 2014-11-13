@@ -1,0 +1,50 @@
+mkdir colorchemes
+set colorscheme solarized
+open_with gimp
+search dwm-curr 
+search baby
+open_with unzip
+search weechat
+search builds
+mkdir images
+mkdir sys
+mkdir digital
+mv canon
+sh mv canon
+touch vimprobablerc
+open_with nano
+
+mv vimprobablerc
+sh mv vimprobablerc
+shell mv vimprobablercold vimprobablerc
+shell mv vimprobablerc
+shell mv original.vimprobablerc vimprobablerc
+search bookmarks
+open_with vim
+shell touch history
+open_with wine
+shell mkdir barthelme
+shell touch index.html
+open_with file_roller
+open_with file-roller
+search pinboard
+search pin
+search tumblr
+mv 5266.epub
+shell mv 5254.epub
+search drop
+shell cp reps.html
+open_with feh
+open_with mirage
+search .config
+open_with evince
+open_with 
+open_with 0
+open_with mudpf
+open_with mupdf
+open_with calibre
+search conky
+delete
+search vide
+shell mkdir git
+search Dropbox
