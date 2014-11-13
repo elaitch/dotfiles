@@ -1,1 +1,0 @@
-__id__:int __version__:int user_id:str tutorial:bool music:bool sfx:bool use_remote:bool first_time:bool show_version_warning:bool

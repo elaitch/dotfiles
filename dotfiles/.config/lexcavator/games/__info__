@@ -1,1 +1,0 @@
-__id__:int __version__:int user_id:str mode:str score:int depth:float created_at:datetime
