@@ -1,3 +1,3 @@
-
+NOT ANOTHER DOTFILES REPO
 ========
-Miscellaneous files
+Clearly not a programmer. Tinkering as a means of procrastination. 
