@@ -2,7 +2,7 @@ auto-reload yes
 browser firefox
 cleanup-on-quit yes
 refresh-on-startup no
-reload-time 20
+reload-time 15
 reload-threads 2
 show-read-articles yes
 show-read-feeds no
