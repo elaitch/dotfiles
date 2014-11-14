@@ -1,3 +1,5 @@
+: Still haven't 100% weened myself from Big Brower but ... close!
+
 set homepage=file:///home/dome/home.html
 set seriffont="Droid Serif"
 set sansfont="Droid Sans"
@@ -6,6 +8,7 @@ set fontsize=12
 set monofontsize=12
 set minimumfontsize=8
 set proxy=true
+
 : load the save bookmark form in the same window and redirect
 map <C-l>=:javascript ;document.location='https://pinboard.in/add?next=same&url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title)
 
