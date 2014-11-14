@@ -1,12 +1,9 @@
+" Makes thou this shame thy pastime?
+" -- William Shakespeare on my .vimrc
+
 version 6.0
 colorscheme miromiro
 if &cp | set nocp | endif
-let s:cpo_save=&cpo
-set cpo&vim
-nmap gx <Plug>NetrwBrowseX
-nnoremap <silent> <Plug>NetrwBrowseX :call netrw#NetrwBrowseX(expand("<cWORD>"),0)
-let &cpo=s:cpo_save
-unlet s:cpo_save
 set nocompatible
 syntax on
 set background=dark
