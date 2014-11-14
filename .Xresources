@@ -2,13 +2,12 @@ Xft.antialias:  1
 Xft.dpi:        96
 Xft.hinting:    1
 Xft.hintstyle:  hintslight
-!Xft.hintstyle: full
 Xft.rgba:       rgb
 
 
 !--[Urxvt Options]--!
 URxvt.font:-*-termsyn-medium-*-*-*-14-*-*-*-*-*-*-*
-!URxvt.font:-*-dina-medium-r-*-*-10-*-*-*-*-*-*-*
+!--[ Wanted, one good looking italic pcf font] -- !
 URxvt.italicFont:xft:droid sans mono:pixelsize=11:italic:antialias=true:hinting=true
 URxvt.scrollBar: false
 URxvt.skipBuiltinGlyphs: true
@@ -30,7 +29,9 @@ URxvt.keysym.M-u:       perl:url-select:select_next
 URxvt.keysym.M-Escape:  perl:keyboard-select:activate
 URxvt.keysym.M-s:       perl:keyboard-select:search
 URxvt.url-select.launcher: /usr/bin/firefox
+
 !--[URxvt.url-select.launcher:      /home/dome/vimp.sh
+
 URxvt.url-select.underline: true
 URxvt.matcher.button:   1 
 URxvt.underlineURLs: true
@@ -50,26 +51,20 @@ dzen2.font:   -*-termsyn.icons-medium-*-*-*-14-*-*-*-*-*-*-*
 *color8:#777777
 
 !red
-!*color1:#B36197
 *color1:#EF7BA4
 *color9:#C383AE
 
 !green
 *color2:#6197B3
-!*color2:#61B37C
 *color10:#C4E3DE
-!*color10:#83C398
 
 !yellow
-!color3:#FF8080 1st coral
 *color3:#FF9999
 *color11:#FAAFA8
 
 !blue
 *color4:#616EB3
 *color12:#838EC3
-!*color4:#7BA4EF
-!*color12:#7BDDEF
 
 !magenta
 *color5:#7c61b3
@@ -82,4 +77,3 @@ dzen2.font:   -*-termsyn.icons-medium-*-*-*-14-*-*-*-*-*-*-*
 !white
 *color7:#fdfdfd
 *color15:#efefef
-!b3b3b3
