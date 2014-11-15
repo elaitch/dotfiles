@@ -1,5 +1,3 @@
-: Still haven't 100% weened myself from Big Brower but ... close!
-
 set homepage=file:///home/dome/home.html
 set seriffont="Droid Serif"
 set sansfont="Droid Sans"
@@ -12,6 +10,6 @@ set proxy=true
 : load the save bookmark form in the same window and redirect
 map <C-l>=:javascript ;document.location='https://pinboard.in/add?next=same&url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title)
 
-: don't bug me, just add the damn bookmark (read later)
+: don't bug me, just add the bookmark (and mark as read later)
 map <C-n>=:javascript ;document.location='https://pinboard.in/add?later=yes&noui=yes&jump=close&next=same&url='+encodeURIComponent(location.href)+'&title='+encodeURIComponent(document.title)
 
