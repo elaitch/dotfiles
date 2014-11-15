@@ -39,6 +39,8 @@ highlight URL text-decoration: none; color: #75A3A3;
 highlight WarningMsg color: #f2f2f2; background: #C8567C; font-size: 12px;  font-family: Monospace;  
 noremap k kk
 noremap j jj
+map <A-w> gt
+map <A-q> gT
 set noautocomplete
 set complete=lhb
 set defsearch=g
