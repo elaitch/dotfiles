@@ -1,0 +1,1 @@
+/home/dome/dwm-current/config.h
