@@ -10,8 +10,8 @@ article-sort-order date-asc
 articlelist-format "%4i %f %D  %?T?|%-17T| ?%t"
 confirm-exit no
 feed-sort-order firsttag
-max-items 100
-keep-articles-days 7
+max-items 50
+keep-articles-days 3
 
 color listnormal white black
 color listfocus white blue
