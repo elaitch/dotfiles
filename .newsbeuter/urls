@@ -28,42 +28,39 @@ http://50watts.tumblr.com/rss tv
 http://feeds.kottke.org/main 1 links general
 http://mindhacks.com/feed/ science
 http://somuchsilence.com/?feed=rss2 music
-http://mightygodking.com/index.php/feed/ 1 popculture comics
-http://www.deconcrete.org/feed/ arts
+http://mightygodking.com/index.php/feed/ 3 popculture comics
+http://www.deconcrete.org/feed/ 3 arts
 http://motivatedgrammar.wordpress.com/feed/ lit
 http://taxonomica.tumblr.com/rss tumblr arts
 http://languagelog.ldc.upenn.edu/nll/?feed=rss2 1 lit language
 http://nightmaremode.net/feed/
-http://www.npr.org/rss/rss.php?id=93568166 tv popculture
+http://www.npr.org/rss/rss.php?id=93568166 2 tv popculture
 http://charlesmatthews.blogspot.com/feeds/posts/default?alt=rss lit
 http://savageminds.org/feed/ science
 http://feeds.theonion.com/theonion/daily humour
-http://longform.org/feed/ lit general
+http://longform.org/feed/ 3 lit general
 http://excrementalvirtue.com/feed/ humour general
 http://hilobrow.com/feed/ popculture lit
 http://joshreads.com/?feed=rss2 comics people
 http://realestalker.blogspot.com/feeds/posts/default misc
 http://puttingweirdthingsincoffee.com/feed/ misc
 http://john-adcock.blogspot.com/feeds/posts/default art comics
-http://www.slate.com/blogs/browbeat.fulltext.all.10.rss general
 http://joeposnanski.blogspot.com/feeds/posts/default general
 http://stroppyeditor.wordpress.com/feed/ lit language
 http://waxy.org/links/index.xml 1 links general
 http://globalgroovers.blogspot.com/feeds/posts/default music
-http://www.economist.com/blogs/pomegranate/atom.xml news
 http://feeds.plos.org/plos/blogs/neuroanthropology?format=xml science
-http://www.guardian.co.uk/media/charlie-brooker/rss tv
 http://tywkiwdbi.blogspot.com/feeds/posts/default misc
 http://selfstyledsiren.blogspot.com/feeds/posts/default tv film
 http://davidbrin.blogspot.com/feeds/posts/default 
 http://gardenhistorygirl.blogspot.com/feeds/posts/default?alt=rss misc
 http://letterology.blogspot.com/feeds/posts/default lit language
 http://feeds.feedburner.com/yougrowgirl/ arts
-http://jasonwryan.com/atom.xml linux
+http://jasonwryan.com/atom.xml 3 linux
 http://jjqblog.wordpress.com/category/table-of-contents/feed/ lit
 http://www.schneier.com/blog/index.rdf tech
 http://cjchivers.com/rss news
-http://biblioklept.org/feed/ lit
+http://biblioklept.org/feed/ 2 lit
 http://profmattstrassler.com/feed/ science
 http://thehorticulturalist.wordpress.com/feed/ misc
 http://feeds.feedburner.com/plasticbag
@@ -77,7 +74,7 @@ http://www.aeonmagazine.com/feed/ 1 lit arts
 http://drdavidclarke.co.uk/feed/ arts 
 http://feeds.theonion.com/avclub/daily  tv
 http://nonsenselit.wordpress.com/feed/
-http://allanmcrae.com/feed/  linux tech
+http://allanmcrae.com/feed/ 3 linux tech
 http://www.10zenmonkeys.com/feed/
 http://feeds2.feedburner.com/EverseRadio
 http://acertaincinema.com/feed/ film
@@ -115,3 +112,7 @@ https://medium.com/feed/message people tech general
 http://sivers.org/en.atom people general
 http://www.thewildercoast.com/feeds/posts/default people general
 http://perso.fraise.net/wp-rss2.php people general
+http://feeds.feedburner.com/AskMetafilter 2 general
+http://feeds.feedburner.com/MeFi/MetaTalk 2 general
+http://feeds2.feedburner.com/mefi/PopularPosts 2 general
+ http://feeds.feedburner.com/mefi/PopularComments 2 general
