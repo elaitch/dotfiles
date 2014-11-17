@@ -34,3 +34,8 @@ PATH="`ruby -e 'print Gem.user_dir'`/bin:$PATH"
 
 source ~/scripts/tmuxinator.zsh
 alias tmux-dome='tmuxinator start dome'
+
+# fix git complete hangs?
+__git_files () { 
+    _wanted files expl 'local files' _files     
+}
