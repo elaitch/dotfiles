@@ -20,9 +20,9 @@ URxvt.loginShell: true
 URxvt.saveLines: 8192
 urxvt.geometry: 80x40
 URxvt.borderless: false
+URxvt.internalBorder: 5
 URxvt.xftAntialias: true
 URxvt.jumpScroll: true
-URxvt.internalBorder: 5
 URxvt.cursorBlink: false
 URxvt.perl-ext-common : default,clipboard,url-select
 URxvt.keysym.M-u:       perl:url-select:select_next
