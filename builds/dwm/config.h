@@ -2,7 +2,7 @@
 
 /* appearance */
 static const char font[]            = "-*-termsyn.icons-medium-*-*-*-14-*-*-*-*-*-*-*";
-static const char normbordercolor[] = "#222222";
+static const char normbordercolor[] = "#333333";
 static const char normbgcolor[]     = "#222222";
 static const char normfgcolor[]     = "#bbbbbb";
 static const char selbordercolor[]  = "#66aaaa";
