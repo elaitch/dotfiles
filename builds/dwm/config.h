@@ -2,7 +2,7 @@
 
 /* appearance */
 static const char font[]            = "-*-termsyn.icons-medium-*-*-*-14-*-*-*-*-*-*-*";
-static const char normbordercolor[] = "#333333";
+static const char normbordercolor[] = "#222222";
 static const char normbgcolor[]     = "#222222";
 static const char normfgcolor[]     = "#bbbbbb";
 static const char selbordercolor[]  = "#66aaaa";
@@ -10,7 +10,7 @@ static const char selbgcolor[]      = "#222222";
 static const char urgentbgcolor[]   = "#B36197";
 
 static const char selfgcolor[]      = "#66aaaa";
-static const unsigned int borderpx  = 1;        /* border pixel of windows */
+static const unsigned int borderpx  = 2;        /* border pixel of windows */
 static const unsigned int snap      = 8;       /* snap pixel */
 static const Bool showbar           = True;     /* False means no bar */
 static const Bool topbar            = True;     /* False means bottom bar */
