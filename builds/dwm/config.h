@@ -49,7 +49,7 @@ static const Layout layouts[] = {
          { "ô",      monocle },
          { "ù",      spiral },
          { "ú",      gaplessgrid },
-	 { "ü",      bstack},	
+	 { "û",      bstack},	
 };
 
 /* key definitions */
