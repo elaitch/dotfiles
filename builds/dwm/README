@@ -8,6 +8,7 @@ w/ the following patches:
 + centerwindow
 + fibonacci
 + hide_vacant_tags
++ nextprev
 + pertag
 + push
 + single_window_no_border
