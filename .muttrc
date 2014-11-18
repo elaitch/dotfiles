@@ -15,7 +15,7 @@ set postponed = "+imap/Drafts"
 #set record="~/mail/sent/"
 
 set smtp_url = "NOT MY USERNAME"
-#password=TODO
+set smtp_pass = "NOT MY PASSWORD"
 
 
 # Store message headers locally to speed things up.
