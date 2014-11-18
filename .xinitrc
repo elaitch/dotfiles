@@ -9,6 +9,7 @@ setxkbmap -option compose:ralt
 eval `cat ~/.fehbg` &
 autocutsel -fork &
 autocutsel -selection PRIMARY -fork &
+unclutter -noevents -idle 3 &
 urxvtc -pe kuake -name Scratchpad -geometry 80x20+674+338
 udiskie &
 dwm
