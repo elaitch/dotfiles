@@ -1,7 +1,0 @@
-
-user=elaitch
-#password=TODO
-password = 12345
-password: 12345
-password: "12345"
-password = "12345"
