@@ -15,5 +15,8 @@ w/ the following patches
 + single_window_no_border
 + singularborders
 + swapfocus
++ assorted edits:
+  - removed []'s from monocle count
+  - removed drw_rect
 
 http://dwm.suckless.org
