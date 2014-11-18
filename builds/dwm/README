@@ -6,6 +6,7 @@ dwm 6.0, or is it 6.1
 w/ the following patches
 
 + attachaside
++ bstack
 + centerwindow
 + fibonacci
 + gridmode
