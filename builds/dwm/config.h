@@ -47,6 +47,7 @@ static const Layout layouts[] = {
          { "ý",      NULL },     /* no layout function means floating behavior */
          { "ô",      monocle },
          { "ù",      spiral },
+         { "ú",      gaplessgrid },
 };
 
 /* key definitions */
@@ -78,9 +79,9 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_r,      spawn,          {.v = ranger } },
         { MODKEY,                       XK_a,      spawn,          {.v = firefox } },
-	{ MODKEY,                       XK_g,     spawn,         {.v = chrome } },
+	{ MODKEY,                       XK_b,     spawn,         {.v = chrome } },
         { MODKEY,                       XK_v,     spawn,         {.v = vimp } },
-	{ MODKEY,                       XK_b,      togglebar,      {0} },
+	{ MODKEY|ShiftMask,             XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
 	{ MODKEY,                       XK_i,      incnmaster,     {.i = +1 } },
@@ -93,7 +94,8 @@ static Key keys[] = {
 	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} },
 	{ MODKEY,                       XK_f,      setlayout,      {.v = &layouts[1]} },
 	{ MODKEY,                       XK_m,      setlayout,      {.v = &layouts[2]} },
-        { MODKEY,                       XK_c,      setlayout,      {.v = &layouts[3]} },
+        { MODKEY|ShiftMask,             XK_f,      setlayout,      {.v = &layouts[3]} },
+	{ MODKEY,                       XK_g,      setlayout,      {.v = &layouts[4]} },
 	{ MODKEY,                       XK_space,  setlayout,      {0} },
 	{ MODKEY|ShiftMask,             XK_space,  togglefloating, {0} },
 	{ MODKEY|ShiftMask,             XK_Tab,    toggleview,     {0} },
