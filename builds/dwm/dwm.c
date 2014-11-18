@@ -1211,7 +1211,7 @@ monocle(Monitor *m) {
 		if(ISVISIBLE(c))
 			n++;
 	if(n > 0) /* override layout symbol */
-		snprintf(m->ltsymbol, sizeof m->ltsymbol, "+%d", n);
+		snprintf(m->ltsymbol, sizeof m->ltsymbol, "x%d", n);
 for(c = nexttiled(m->clients); c; c = nexttiled(c->next)) {
                /* remove border when in monocle layout */
                if(c->bw) {
