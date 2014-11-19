@@ -466,7 +466,7 @@ buttonpress(XEvent *e) {
                        if(!(occ & 1 << i || m->tagset[m->seltags] & 1 << i))
                                continue;
 			
-                TEXTW(tags[i]);
+             x+=   TEXTW(tags[i]);
                 } while(ev->x >= x && ++i < LENGTH(tags));		
                 if(i < LENGTH(tags)) {
 			click = ClkTagBar;
