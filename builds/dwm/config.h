@@ -106,6 +106,7 @@ static Key keys[] = {
         { MODKEY|ShiftMask,             XK_j,      pushdown,       {0} },
         { MODKEY|ShiftMask,             XK_k,      pushup,         {0} },
         { MODKEY,                       XK_q,      view_adjacent,  { .i = -1 } },
+	{ MODKEY,                       XK_w,      view_adjacent,  { .i = +1 } },
 	{ MODKEY,                       XK_0,      view,           {.ui = ~0 } },
 	{ MODKEY|ShiftMask,             XK_0,      tag,            {.ui = ~0 } },
 	{ MODKEY,                       XK_comma,  focusmon,       {.i = -1 } },
