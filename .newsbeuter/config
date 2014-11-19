@@ -5,7 +5,7 @@ refresh-on-startup no
 reload-time 15
 reload-threads 2
 show-read-articles yes
-show-read-feeds yes
+show-read-feeds no
 article-sort-order date-asc
 articlelist-format "%4i %f %D  %?T?|%-17T| ?%t"
 confirm-exit no
