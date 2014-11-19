@@ -1,0 +1,10 @@
+@-moz-document domain("www.metafilter.com"), domain("metafilter.com") {
+body	
+	{
+		width: 1280px !important;
+		margin:  0 auto;
+	 
+	}
+}
+
+
