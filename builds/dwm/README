@@ -15,7 +15,6 @@ w/ the following patches
 + pertag
 + push
 + single_window_no_border
-+ singularborders
 + swapfocus
 + assorted edits:
   - removed []'s from monocle count
