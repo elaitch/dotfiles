@@ -72,7 +72,7 @@ static const char   *firefox[] = { "firefox", NULL};
 static const char   *ranger[] = { "urxvtc", "-title", "ranger", "-e", "ranger", NULL };
 static const char   *chrome[] = { "google-chrome-stable", NULL };
 static const char *vimp[] = { "/home/dome/vimp.sh", NULL };
-
+static const char *stopx[] = { "killall xinit", NULL };
 
 
 static Key keys[] = {
@@ -83,6 +83,7 @@ static Key keys[] = {
         { MODKEY,                       XK_a,      spawn,          {.v = firefox } },
 	{ MODKEY,                       XK_e,     spawn,         {.v = chrome } },
         { MODKEY,                       XK_v,     spawn,         {.v = vimp } },
+ 	{ MODKEY|ShiftMask,             XK_x,     spawn,         {.v = stopx } },
 	{ MODKEY|ShiftMask,             XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
