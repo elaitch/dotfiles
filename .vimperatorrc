@@ -3,7 +3,7 @@
 highlight Bell border: none; background-color: #f2f2f2;
 highlight CmdLine font-size: 12px; background: #454545; color: #f2f2f2; -moz-transition: all 0.25s;
 highlight CmdLine>* font-family: Liberation Mono;
-highlight CmdOutput white-space: pre; font-family: Liberation Mono;
+highlight CmdOutput white-space: pre; font-family: Liberation Mono; height 120px;
 highlight CompDesc width: 500px; max-width: 500px; color: #A3A3A3;
 highlight CompItem font-size: 12px;
 highlight CompItem[selected] color: #f2f2f2 ; background: #383838;
@@ -49,3 +49,4 @@ source! /home/dome/.vimperatorrc.local
 cabbrev pp pinboard
 cabbrev pb pinboard -private -description "
 " vim: set ft=vimperator:
+comm! yt 'exe "!" + eval("plugins.youtubeDownload.youtubeDownload()")'
