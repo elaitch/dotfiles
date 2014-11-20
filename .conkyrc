@@ -5,7 +5,7 @@ total_run_times 0
 use_spacer left
 default_color #EFEFEF
 short_units yes
-pad_percents 1
+pad_percents 2
 text
 #fg(\#636363)^fg(\#dcdcdc) Û ^fg(\#636363)[UP ^fg(\#61b3a5)${upspeed enp3s0}^fg(\#636363)]^fg(\#dcdcdc) Ú ^fg(\#636363)[DOWN ^fg(\#61b3a5)${downspeed enp3s0}^fg(\#636363)]^fg(\#dcdcdc) Ñ ^fg(\#636363)[CPU ^fg(\#61b3a5)$cpu%^fg(\#636363)] ^fg(\#dcdcdc)± ^fg(\#636363)[TEMP ^fg(\#61b3a5)${execi 10 sensors | grep "Physical id 0:" | cut -c 18-24}^fg(\#636363)]^fg(\#dcdcdc) Î ^fg(\#636363)[MEM ^fg(\#61b3a5)$mem^fg(\#636363)]^fg(\#dcdcdc) É ^fg(\#636363)[NOW^fg(\#dcdcdc) ${time %a, %b %d}^fg(\#636363) - ^fg(\#dcdcdc)${time %I:%M%p}^fg(\#636363)]
 dwm 6.0 | Û${upspeed enp3s0} | Ú${downspeed enp3s0} | Ñ $cpu% | ± ${execi 10 sensors | grep "Physical id 0:" | cut -c 18-24} | Î$mem | É ${time %A, %b %d}  - ${time %I:%M%p}
