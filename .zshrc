@@ -33,7 +33,6 @@ VISUAL=/usr/bin/vim
 PATH="`ruby -e 'print Gem.user_dir'`/bin:$PATH"
 source ~/scripts/tmuxinator.zsh
 alias tmux-dome='tmuxinator start dome'
-alias netflix='google-chrome-stable --app=http://www.netflix.com'
 
 # fix git complete hangs?
 __git_files () { 
