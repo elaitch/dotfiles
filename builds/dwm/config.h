@@ -48,7 +48,7 @@ static const Layout layouts[] = {
          { "ý",      NULL },     /* no layout function means floating behavior */
          { "ô",      monocle },
          { "ú",      gaplessgrid },
-	 { "ü",      bstack},	
+	 { "û",      bstack},	
 };
 
 /* key definitions */
