@@ -45,6 +45,7 @@ set noautocomplete
 set complete=lhb
 set defsearch=g
 set showstatuslinks=0
+set gui=noaddons,nonavigation
 source! /home/dome/.vimperatorrc.local
 cabbrev pp pinboard
 cabbrev pb pinboard -private -description "
