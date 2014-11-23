@@ -5,7 +5,7 @@ xset m 0 0
 urxvtd -q -o -f
 conky | while read -r; do xsetroot -solid darkslategray4 -name "$REPLY"; done & 
 xbindkeys 
-setxkbmap -option compose:ralt
+setxkbmap -option compose:ralt -option ctrl:nocaps
 autocutsel -fork &
 autocutsel -selection PRIMARY -fork &
 unclutter -noevents -idle 3 &
