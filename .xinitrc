@@ -8,7 +8,6 @@ autocutsel -fork &
 autocutsel -selection PRIMARY -fork &
 unclutter -noevents -idle 3 &
 urxvtc -pe kuake -name Scratchpad -geometry 80x20+674+338
-nvidia-settings --load-config-only &
 udiskie &
 exec dwm
 
