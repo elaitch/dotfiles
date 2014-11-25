@@ -13,9 +13,12 @@ compinit
 
 # End of lines added by compinstall
 autoload -U colors && colors
-PROMPT='$fg_no_bold[green]$VIMODE$reset_color $fg_no_bold[cyan]%0~$reset_color
->'
 
+PROMPT='
+$fg_no_bold[cyan]$VIMODE $reset_color%n$reset_color$fg_no_bold[cyan]@$reset_color%m $fg_no_bold[cyan]%0~$reset_color $fg_no_bold[blue]$git_info[prompt]$reset_color
+$fg_no_bold[blue]:$resetcolor$fg_no_bold[cyan]:$reset_color: '
+
+RPROMPT='$git_info[rprompt]'
 
 # set VIMODE according to the current mode (default “[i]”)
 VIMODE='[i]'
