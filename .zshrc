@@ -22,12 +22,7 @@ autoload -U colors && colors
 autoload -U promptinit && promptinit
 prompt pure
 
-#PROMPT='
-#$fg_no_bold[cyan]$VIMODE $reset_color%n$reset_color$fg_no_bold[cyan]@$reset_color%m $fg_no_bold[cyan]%0~$reset_color $fg_no_bold[blue]$git_info[prompt]$reset_color
-#$fg_no_bold[blue]:$resetcolor$fg_no_bold[cyan]:$reset_color: '
-
-
-#RPROMPT=''
+RPROMPT='$VIMODE'
 
 # set VIMODE according to the current mode (default “[i]”)
 
