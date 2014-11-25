@@ -25,6 +25,9 @@ set suffixes=.bak,~,.swp,.o,.info,.aux,.log,.dvi,.bbl,.blg,.brf,.cb,.ind,.idx,.i
 :map <F5> :setlocal spell! spelllang=en_us<CR>
 :nmap <C-N><C-N> :set invnumber<CR>
 
+" Let Ranger handle this
+let loaded_explorer = 1
+
 function! RangeChooser()
 let temp = tempname()
 " The option "--choosefiles" was added in ranger 1.5.1. Use the next line
