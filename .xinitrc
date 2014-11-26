@@ -1,5 +1,3 @@
-xset +fp /usr/share/fonts/local
-xset fp rehash
 xset -dpms; xset s off 
 xset m 0 0 
 urxvtd -q -o -f
