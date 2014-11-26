@@ -7,4 +7,4 @@ default_color #EFEFEF
 short_units yes
 pad_percents 2
 text
-dwm 6.0 | Û ${upspeed enp3s0} | Ú ${downspeed enp3s0} | Ñ $cpu% | ± ${execi 10 sensors | grep "Physical id 0:" | cut -c 18-24} | Î $mem | É ${time %A, %b %d}  - ${time %I:%M%p}
+dwm-6.1 | Û ${upspeed enp3s0} | Ú ${downspeed enp3s0} | Ñ $cpu% | ± ${execi 10 sensors | grep "Physical id 0:" | cut -c 18-24} | Î $mem | É ${time %A, %b %d}  - ${time %I:%M%p}
