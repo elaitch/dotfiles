@@ -1,18 +1,19 @@
+!xft fonts
+
 Xft.antialias:  1
 Xft.dpi:        96
 Xft.hinting:    1
 Xft.hintstyle:  hintslight
 Xft.rgba:       rgb
 
+! urxvt
 
-!--[Urxvt Options]--!
 URxvt.font:-*-termsyn-medium-*-*-*-14-*-*-*-*-*-*-*
 URxvt.italicFont:xft:droid sans mono:pixelsize=11:italic:antialias=true:hinting=true
 URxvt.scrollBar: false
 URxvt.skipBuiltinGlyphs: true
 URxvt.depth:       16
 URxvt.letterSpace: 0
-URxvt.fading:               0
 URxvt.boldMode: false
 URxvt.imLocale: en_US.utf8
 URxvt.loginShell: true
@@ -23,18 +24,20 @@ URxvt.internalBorder: 5
 URxvt.xftAntialias: true
 URxvt.jumpScroll: true
 URxvt.cursorBlink: false
+URxvt.underlineURLs: true
+URxvt.cursorUnderline:      false
+URxvt*transparent: false
+urxvt*urgentOnBell: true
+
+!extensions
+
 URxvt.perl-ext-common : default,clipboard,url-select,keyboard-select
 URxvt.keysym.M-u:       perl:url-select:select_next
 URxvt.keysym.M-Escape:  perl:keyboard-select:activate
 URxvt.keysym.M-s:       perl:keyboard-select:search
 URxvt.url-select.launcher: /usr/bin/firefox
 URxvt.url-select.underline: true
-URxvt.matcher.button:   1 
-URxvt.underlineURLs: true
-URxvt.cursorUnderline:      false
-URxvt*transparent: false
-urxvt*urgentOnBell: true
-URxvt*shading: 0
+
 
 !colors
 
