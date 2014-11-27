@@ -33,14 +33,16 @@ URxvt.matcher.button:   1
 URxvt.underlineURLs: true
 URxvt.cursorUnderline:      false
 URxvt*transparent: false
+urxvt*urgentOnBell: true
 URxvt*shading: 0
+
+!colors
+
 URxvt*background:            #222222
 URxvt*foreground:            #e6e6e6
 URxvt*cursorColor:           #61b3a5
 URxvt*colorBD:               #FFFFFF
 URxvt*colorUL:               #72BBAE
-urxvt*urgentOnBell: true
-dzen2.font:   -*-termsyn.icons-medium-*-*-*-14-*-*-*-*-*-*-*
 
 !black
 *color0:#222222
