@@ -7,7 +7,6 @@ Xft.rgba:       rgb
 
 !--[Urxvt Options]--!
 URxvt.font:-*-termsyn-medium-*-*-*-14-*-*-*-*-*-*-*
-!--[ Wanted, one good looking italic pcf font] -- !
 URxvt.italicFont:xft:droid sans mono:pixelsize=11:italic:antialias=true:hinting=true
 URxvt.scrollBar: false
 URxvt.skipBuiltinGlyphs: true
@@ -29,9 +28,6 @@ URxvt.keysym.M-u:       perl:url-select:select_next
 URxvt.keysym.M-Escape:  perl:keyboard-select:activate
 URxvt.keysym.M-s:       perl:keyboard-select:search
 URxvt.url-select.launcher: /usr/bin/firefox
-
-!--[URxvt.url-select.launcher:      /home/dome/vimp.sh
-
 URxvt.url-select.underline: true
 URxvt.matcher.button:   1 
 URxvt.underlineURLs: true
