@@ -67,12 +67,10 @@ http://feeds.feedburner.com/plasticbag
 http://rss.sciam.com/octopus-chronicles/feed science 
 http://feeds.feedburner.com/presurfer general links
 http://feeds2.feedburner.com/OverthinkingIt popculture 
-http://vimeo.com/channels/staffpicks/videos/rss tv video
 http://www.notebookstories.com/feed/ lit
 http://electricjive.blogspot.com/feeds/posts/default music
 http://www.aeonmagazine.com/feed/ 1 lit arts
 http://drdavidclarke.co.uk/feed/ arts 
-http://feeds.theonion.com/avclub/daily  tv
 http://nonsenselit.wordpress.com/feed/
 http://allanmcrae.com/feed/ 3 linux tech
 http://www.10zenmonkeys.com/feed/
@@ -91,14 +89,14 @@ http://alphahistory.com/weirdhistory/feed/ misc
 http://spaceagehustle.com/rss
 http://feeds.feedburner.com/nah_right music
 http://feeds.labnol.org/labnol 
-http://rss.cbc.ca/lineup/topstories.xml news
+http://rss.cbc.ca/lineup/topstories.xml 2 news
 http://newsrss.bbc.co.uk/rss/newsonline_uk_edition/magazine/rss.xml news
 http://www.newyorker.com/feed/news arts
 http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml 1 news
 http://feeds.feedburner.com/Metafilter 1 general links 
 http://feeds.arstechnica.com/arstechnica/index tech
 http://freecode.com/?format=atom tech
-http://news.ycombinator.com/rss tech general links
+http://news.ycombinator.com/rss 1 tech general links
 http://globalvoicesonline.org/-/type/feature/feed/ news
 http://feeds.feedburner.com/ezyang tech 
 http://www.fragmentsfromfloyd.com/feed/ general people
@@ -116,4 +114,4 @@ http://feeds.feedburner.com/MeFi/MetaTalk 2 general
 http://feeds2.feedburner.com/mefi/PopularPosts 2 general
 http://feeds.feedburner.com/mefi/PopularComments 2 general
 http://feeds.feedburner.com/saidthegramophone/stg music
-http://unix.stackexchange.com/feeds
+http://unix.stackexchange.com/feeds 1
