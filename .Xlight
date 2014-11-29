@@ -1,0 +1,80 @@
+!xft fonts
+
+Xft.antialias:  1
+Xft.dpi:        96
+Xft.hinting:    1
+Xft.hintstyle:  hintslight
+Xft.rgba:       rgb
+
+! urxvt
+
+URxvt.font:-*-termsyn-medium-*-*-*-14-*-*-*-*-*-*-*
+URxvt.italicFont:xft:droid sans mono:pixelsize=11:italic:antialias=true:hinting=true
+URxvt.scrollBar: false
+URxvt.skipBuiltinGlyphs: true
+URxvt.depth:       16
+URxvt.letterSpace: 0
+URxvt.boldMode: false
+URxvt.imLocale: en_US.utf8
+URxvt.loginShell: true
+URxvt.saveLines: 8192
+urxvt.geometry: 80x40
+URxvt.borderless: false
+URxvt.internalBorder: 5
+URxvt.xftAntialias: true
+URxvt.jumpScroll: true
+URxvt.cursorBlink: false
+URxvt.underlineURLs: true
+URxvt.cursorUnderline:      false
+URxvt*transparent: false
+urxvt*urgentOnBell: true
+
+!extensions
+
+URxvt.perl-ext-common : default,clipboard,url-select,keyboard-select
+URxvt.keysym.M-u:       perl:url-select:select_next
+URxvt.keysym.M-Escape:  perl:keyboard-select:activate
+URxvt.keysym.M-s:       perl:keyboard-select:search
+URxvt.url-select.launcher: /usr/bin/firefox
+URxvt.url-select.underline: true
+
+
+!colors
+
+URxvt*background:            #efefef
+URxvt*foreground:            #222222
+URxvt*cursorColor:           #61b3a5
+URxvt*colorBD:               #444444
+URxvt*colorUL:               #72BBAE
+
+!black
+*color0:#222222
+*color8:#555555
+
+!red
+*color1:#E63775
+*color9:#E63775
+
+!green
+*color2:#19C88A
+*color10:#19C88A
+
+!yellow
+*color3:#E65237
+*color11:#E65237
+
+!blue
+*color4:#3775E6
+*color12:#3775E6
+
+!magenta
+*color5:#5237E6
+*color13:#5237E6
+
+!cyan
+*color6:#1BC1DE
+*color14:#1BC1DE
+
+!white
+*color7:#fdfdfd
+*color15:#efefef
