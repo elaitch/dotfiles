@@ -3,7 +3,7 @@ out_to_console yes
 update_interval 3.0
 total_run_times 0
 use_spacer left
-default_color #222222
+default_color #EFEFEF
 short_units yes
 pad_percents 2
 text
