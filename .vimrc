@@ -2,11 +2,11 @@
 " -- William Shakespeare on my .vimrc
 
 version 6.0
-colorscheme miromiro
+colorscheme mirolight
 if &cp | set nocp | endif
 set nocompatible
 syntax on
-set background=dark
+set background=light
 set number
 set fileencodings=ucs-bom,utf-8,default,latin1
 set helplang=en
