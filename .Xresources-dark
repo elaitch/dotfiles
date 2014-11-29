@@ -41,41 +41,40 @@ URxvt.url-select.underline: true
 
 !colors
 
-URxvt*background:            #efefef
-URxvt*foreground:            #222222
-URxvt*cursorColor:           #2A6BE5
-URxvt*colorBD:               #444444
+URxvt*background:            #222222
+URxvt*foreground:            #e6e6e6
+URxvt*cursorColor:           #61b3a5
+URxvt*colorBD:               #FFFFFF
 URxvt*colorUL:               #72BBAE
 
 !black
 *color0:#222222
-*color8:#444444
+*color8:#777777
 
 !red
-*color1:#E52A6B
-*color9:#E52A6B
+*color1:#EF7BA4
+*color9:#C383AE
 
 !green
-*color2:#1BDA38
-*color10:#1BDA38
+*color2:#6197B3
+*color10:#C4E3DE
 
 !yellow
-*color3:#E5462A
-*color11:#E5462A
+*color3:#FF9999
+*color11:#FAAFA8
 
 !blue
-*color4:#2A6BE5
-*color12:#2A6BE5
+*color4:#616EB3
+*color12:#838EC3
 
 !magenta
-*color5:#462AE5
-*color13:#462AE5
+*color5:#7c61b3
+*color13:#9883C3
 
 !cyan
-*color6:#18C387
-*color14:#18C387
+*color6:#61B3A5
+*color14:#83C3B9
 
 !white
-*color7:#efefef
+*color7:#fdfdfd
 *color15:#efefef
-
