@@ -1,36 +1,36 @@
 http://feeds.feedburner.com/BookPatrol lit
 http://feeds.nplusonemag.com/nplusonemag_main/ arts
-http://whatever.scalzi.com/feed/ lit
-http://nagonthelake.blogspot.com/feeds/posts/default general
+http://whatever.scalzi.com/feed/ lit writers scifi
+http://nagonthelake.blogspot.com/feeds/posts/default general links
 http://shkspr.mobi/blog/feed/ tech
 http://blog.yjl.im/feeds/posts/default  tech
 http://feeds.feedburner.com/ConversationalReading  1 lit 
-http://feeds.feedburner.com/FutilityCloset  general
+http://feeds.feedburner.com/FutilityCloset  general links
 http://www.auntiepixelante.com/?feed=rss2  general
-http://punchincanada.blogspot.com/feeds/posts/default?alt=rss  art
+http://punchincanada.blogspot.com/feeds/posts/default?alt=rss  art comics
 http://www.epigrammatic.org/index.cgi/index.rss20  
 http://feeds.feedburner.com/BestOfMetafilter  general links
 http://www.thedorkreport.com/feed/  misc
-http://blogs.law.harvard.edu/houghtonmodern/feed/  lit
+http://blogs.law.harvard.edu/houghtonmodern/feed/  lit law
 http://feed.flowingdata.com/flowingdata  tech
-http://yesterdayspapersarchive.blogspot.com/feeds/posts/default  comics
-http://interstitialjournal.com/feed/  lit
+http://yesterdayspapersarchive.blogspot.com/feeds/posts/default  comics art vintage
+http://interstitialjournal.com/feed/  lit academia
 http://faceculture.blogspot.com/feeds/posts/default  tech 
-http://fractalontology.wordpress.com/feed/  lit
+http://fractalontology.wordpress.com/feed/  lit academia
 http://weblog.ceicher.com/atom.xml arts tv
 http://www.joelonsoftware.com/rss.xml  tech 
-http://lwn.net/headlines/newrss  tech
+http://lwn.net/headlines/newrss  tech linux opensource
 http://matsuli.blogspot.com/feeds/posts/default  music
 http://matsuli.blogspot.com/feeds/posts/default?alt=rss  music
 http://yeskarthi.wordpress.com/feed/ 
-http://www.cabinetmagazine.org/rss/rss.xml 1 lit
+http://www.cabinetmagazine.org/rss/rss.xml 1 lit longform
 http://50watts.tumblr.com/rss tv
 http://feeds.kottke.org/main 1 links general
 http://mindhacks.com/feed/ science
 http://somuchsilence.com/?feed=rss2 music
 http://mightygodking.com/index.php/feed/ 3 popculture comics
 http://www.deconcrete.org/feed/ 3 arts
-http://motivatedgrammar.wordpress.com/feed/ lit
+http://motivatedgrammar.wordpress.com/feed/ lit language
 http://taxonomica.tumblr.com/rss tumblr arts
 http://languagelog.ldc.upenn.edu/nll/?feed=rss2 1 lit language
 http://nightmaremode.net/feed/
@@ -38,12 +38,12 @@ http://www.npr.org/rss/rss.php?id=93568166 2 tv popculture
 http://charlesmatthews.blogspot.com/feeds/posts/default?alt=rss lit
 http://savageminds.org/feed/ science
 http://feeds.theonion.com/theonion/daily humour
-http://longform.org/feed/ 3 lit general
+http://longform.org/feed/ 3 lit general longform
 http://excrementalvirtue.com/feed/ humour general
-http://hilobrow.com/feed/ popculture lit
+http://hilobrow.com/feed/ popculture lit longform
 http://joshreads.com/?feed=rss2 comics people
 http://realestalker.blogspot.com/feeds/posts/default misc
-http://puttingweirdthingsincoffee.com/feed/ misc
+http://puttingweirdthingsincoffee.com/feed/ misc food
 http://john-adcock.blogspot.com/feeds/posts/default art comics
 http://joeposnanski.blogspot.com/feeds/posts/default general
 http://stroppyeditor.wordpress.com/feed/ lit language
@@ -56,12 +56,12 @@ http://davidbrin.blogspot.com/feeds/posts/default
 http://gardenhistorygirl.blogspot.com/feeds/posts/default?alt=rss misc
 http://letterology.blogspot.com/feeds/posts/default lit language
 http://feeds.feedburner.com/yougrowgirl/ arts
-http://jasonwryan.com/atom.xml 3 linux
+http://jasonwryan.com/atom.xml 3 linux people
 http://jjqblog.wordpress.com/category/table-of-contents/feed/ lit
 http://www.schneier.com/blog/index.rdf tech
 http://cjchivers.com/rss news
 http://biblioklept.org/feed/ 2 lit
-http://profmattstrassler.com/feed/ science
+http://profmattstrassler.com/feed/ science people
 http://thehorticulturalist.wordpress.com/feed/ misc
 http://feeds.feedburner.com/plasticbag
 http://rss.sciam.com/octopus-chronicles/feed science 
@@ -70,9 +70,9 @@ http://feeds2.feedburner.com/OverthinkingIt popculture
 http://www.notebookstories.com/feed/ lit
 http://electricjive.blogspot.com/feeds/posts/default music
 http://www.aeonmagazine.com/feed/ 1 lit arts
-http://drdavidclarke.co.uk/feed/ arts 
+http://drdavidclarke.co.uk/feed/ arts people
 http://nonsenselit.wordpress.com/feed/
-http://allanmcrae.com/feed/ 3 linux tech
+http://allanmcrae.com/feed/ 3 linux tech people
 http://www.10zenmonkeys.com/feed/
 http://feeds2.feedburner.com/EverseRadio
 http://acertaincinema.com/feed/ film
