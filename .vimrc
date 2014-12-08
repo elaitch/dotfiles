@@ -1,6 +1,5 @@
 " Makes thou this shame thy pastime?
 " -- William Shakespeare on my .vimrc
-
 version 6.0
 colorscheme miromiro
 if &cp | set nocp | endif
