@@ -1,12 +1,13 @@
 " Makes thou this shame thy pastime?
 " -- William Shakespeare on my .vimrc
 
-"
+" general
 version 6.0
-colorscheme mirolight
+colorscheme lawren
 if &cp | set nocp | endif
 syntax on
-"
+
+" set
 
 set background=dark
 set fileencodings=ucs-bom,utf-8,default,latin1
