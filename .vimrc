@@ -3,7 +3,7 @@
 
 "
 version 6.0
-colorscheme lawren
+colorscheme mirolight
 if &cp | set nocp | endif
 syntax on
 "
