@@ -1,4 +1,4 @@
-/xft fonts
+! xft fonts
 
 Xft.antialias:  1
 Xft.dpi:        96
@@ -64,7 +64,7 @@ URxvt*colorUL:               #DFFF00
 *color11:#EDFF7A
 
 !blue
-*color4:#337EFF
+*color4:#5794FF
 *color12:#5794FF
 
 !magenta
