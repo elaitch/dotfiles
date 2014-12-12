@@ -16,7 +16,7 @@ highlight ErrorMsg color: #f2f2f2; background: #C8567C; font-size: 12px;  font-f
 highlight Filter color: #5c738a D;
 highlight FrameIndicator background-color: red; opacity: 0.5; z-index: 999; position: fixed; top: 0; bottom: 0; left: 0; right: 0;
 highlight Hint font-family: Monospace; font-size: 11px !important; font-weight: bold !important; color: #f2f2f2 !important; background-color: rgba(0, 0, 0, 0.6) !important; border: solid 1px #000000 !important; position: absolute !important;
-highlight HintActive background: #46B4AE !important; color: #f2f2f2 !important;
+highlight HintActive background: #668CFF !important; color: #f2f2f2 !important;
 highlight HintElem background-color: inherit !important;
 highlight HintImage opacity: .5 !important;
 highlight Indicator color: #5c738a D;
