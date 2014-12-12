@@ -43,37 +43,38 @@ URxvt.url-select.underline: true
 
 URxvt*background:            #222222
 URxvt*foreground:            #e6e6e6
-URxvt*cursorColor:           #61b3a5
+URxvt*cursorColor:           #EFEFEF
 URxvt*colorBD:               #FFFFFF
-URxvt*colorUL:               #72BBAE
+URxvt*colorUL:               #DFFF00
 
 !black
 *color0:#222222
 *color8:#777777
 
 !red
-*color1:#EF7BA4
-*color9:#C383AE
+*color1:#FF1A6E
+*color9:#FF3D84
 
 !green
-*color2:#6197B3
-*color10:#C4E3DE
+*color2:#3DFF57
+*color10:#7AFF8C
 
 !yellow
-*color3:#FF9999
-*color11:#FAAFA8
+*color3:#DFFF00
+*color11:#EDFF7A
 
 !blue
-*color4:#616EB3
-*color12:#838EC3
+*color4:#337EFF
+*color12:#5794FF
 
 !magenta
-*color5:#7c61b3
-*color13:#9883C3
+*color5:#AB1AFF
+*color13:#C561FF
 
 !cyan
-*color6:#61B3A5
-*color14:#83C3B9
+*color6:#00DDFF
+*color14:#0AFFFF
+
 
 !white
 *color7:#fdfdfd
