@@ -45,7 +45,7 @@ URxvt*background:            #222222
 URxvt*foreground:            #e6e6e6
 URxvt*cursorColor:           #5794FF
 URxvt*colorBD:               #FFFFFF
-URxvt*colorUL:               #EDFF7A
+URxvt*colorUL:               #DFFF00
 
 !black
 *color0:#222222
