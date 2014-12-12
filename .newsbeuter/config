@@ -38,4 +38,4 @@ bind-key k up
 bind-key l open
 bind-key h quit
 
-highlight article     "(^Link:.*|^Date:.*)"                 cyan  default
+highlight article     "(^Link:.*|^Date:.*)"                 yellow  default
