@@ -7,8 +7,8 @@ highlight CmdOutput white-space: pre; font-family: Liberation Mono; height 120px
 highlight CompDesc width: 500px; max-width: 500px; color: #A3A3A3;
 highlight CompItem font-size: 12px;
 highlight CompItem[selected] color: #f2f2f2 ; background: #383838;
-highlight CompTitle font-size: 12px; font-weight: bold; background: #527A7A;
-highlight CompTitle>* color: #f2f2f2; padding: 2px 0.5ex;
+highlight CompTitle font-size: 12px; font-weight: bold; background: #337EFF;
+highlight CompTitle>* color: #efefef; padding: 2px 0.5ex;
 highlight ContentSeparator border: 1px; display: -moz-box;
 highlight Disabled color: red;:
 highlight Enabled color: #006666;
@@ -35,7 +35,7 @@ highlight Question color: #f2f2f2; background: #454545; font-weight: bold;
 highlight StatusLine color: #f2f2f2; background: transparent; font-weight: normal; font-size: 12px; font-family: Monospace; 
 highlight Tag color: #f2f2f2;
 highlight Title color: #f2f2f2; background: #454545; font-weight: bold;
-highlight URL text-decoration: none; color: #75A3A3;
+highlight URL text-decoration: none; color: #efefef;
 highlight WarningMsg color: #f2f2f2; background: #C8567C; font-size: 12px;  font-family: Monospace;  
 noremap k kk
 noremap j jj
