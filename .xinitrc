@@ -1,7 +1,7 @@
 xset -dpms; xset s off 
 xset m 0 0 
 urxvtd -q -o -f
-conky | while read -r; do xsetroot -solid darkslategray4 -name "$REPLY"; done & 
+conky | while read -r; do xsetroot -solid steelblue -name "$REPLY"; done & 
 xbindkeys 
 setxkbmap -option compose:ralt -option ctrl:nocaps
 unclutter -noevents -idle 3 &

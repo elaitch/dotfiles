@@ -13,11 +13,11 @@ feed-sort-order firsttag
 max-items 50
 keep-articles-days 3
 
-color listnormal white black
-color listfocus white blue
+color listnormal color247 black
+color listfocus black magenta
                                             
-color listnormal_unread white default bold
-color listfocus_unread white blue bold
+color listnormal_unread white default
+color listfocus_unread black magenta
 
 color info black cyan
 color background white black
