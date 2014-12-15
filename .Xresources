@@ -25,7 +25,7 @@ URxvt.xftAntialias: true
 URxvt.jumpScroll: true
 URxvt.cursorBlink: false
 URxvt.underlineURLs: true
-URxvt.cursorUnderline: false
+URxvt.cursorUnderline: true
 URxvt*transparent: false
 urxvt*urgentOnBell: true
 
@@ -43,7 +43,7 @@ URxvt.url-select.underline: true
 
 URxvt*background:            #222222
 URxvt*foreground:            #e6e6e6
-URxvt*cursorColor:           #C561ff
+URxvt*cursorColor:           #00DDFF
 URxvt*colorBD:               #FFFFFF
 URxvt*colorUL:               #DFFF00
 
