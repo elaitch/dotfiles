@@ -19,7 +19,7 @@ color listfocus black magenta
 color listnormal_unread white default
 color listfocus_unread black magenta
 
-color info black cyan
+color info black color12
 color background white black
 color article white black
 
