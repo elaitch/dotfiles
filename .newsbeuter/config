@@ -14,12 +14,12 @@ max-items 50
 keep-articles-days 3
 
 color listnormal color247 black
-color listfocus black magenta
+color listfocus white magenta
                                             
 color listnormal_unread white default
-color listfocus_unread black magenta
+color listfocus_unread white magenta
 
-color info black color12
+color info black cyan
 color background white black
 color article white black
 
