@@ -3,10 +3,10 @@ out_to_console yes
 update_interval 3.0
 total_run_times 0
 use_spacer left
-default_color #EFEFEF
+default_color #DDDDDD
 short_units yes
 pad_percents 2
 text
 
-^fg(\#70A5FF)dwm  ^fg(\#efefef)6.1 ^fg(\#999999) |^fg(\#70A5FF) Û ^fg(\#efefef)${upspeed enp3s0}^fg(\#999999) | ^fg(\#70A5FF)Ú ^fg(\#efefef)${downspeed enp3s0}^fg(\#999999) | ^fg(\#70A5FF)Ñ ^fg(\#efefef)$cpu%  ^fg(\#999999)| ^fg(\#70A5FF)± ^fg(\#efefef) ${execi 10 sensors | grep "Physical id 0:" | cut -c 18-24} ^fg(\#999999)| ^fg(\#70A5FF)Î ^fg(\#efefef) $mem^fg(\#999999) | ^fg(\#70A5FF)É ^fg(\#efefef) ${time %A, %b %d} ^fg(\#999999) - ^fg(\#efefef) ${time %I:%M%p} 
+^fg(\#70A5FF)dwm  ^fg(\#DDDDDD)6.1 ^fg(\#999999) |^fg(\#70A5FF) Û ^fg(\#DDDDDD)${upspeed enp3s0}^fg(\#999999) | ^fg(\#70A5FF)Ú ^fg(\#DDDDDD)${downspeed enp3s0}^fg(\#999999) | ^fg(\#70A5FF)Ñ ^fg(\#DDDDDD) $cpu% ^fg(\#999999)| ^fg(\#70A5FF)± ^fg(\#DDDDDD) ${execi 10 sensors | grep "Physical id 0:" | cut -c 18-24} ^fg(\#999999)| ^fg(\#70A5FF)Î ^fg(\#DDDDDD) $mem^fg(\#999999) | ^fg(\#70A5FF)É ^fg(\#DDDDDD) ${time %A, %b %d} ^fg(\#999999) - ^fg(\#DDDDDD) ${time %I:%M%p} 
 
