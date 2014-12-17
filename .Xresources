@@ -17,11 +17,11 @@ URxvt.xftAntialias: true
 
 URxvt.boldMode: false
 URxvt.borderless: true
+URxvt.internalBorder: 5
 URxvt.cursorBlink: false
 URxvt.cursorUnderline: false
 URxvt.depth:       16
 URxvt.imLocale: en_US.utf8
-URxvt.internalBorder: 5
 URxvt.jumpScroll: true
 URxvt.letterSpace: 0
 URxvt.loginShell: true
