@@ -83,13 +83,13 @@ hi helpHyperTextJump ctermfg=11
 
 " JS numbers only ---
 hi javaScriptNumber ctermfg=6 
-hi javaScript ctermfg=12
+hi javaScript ctermfg=105
 hi javaScriptBraces ctermfg=15
 hi javascripExpression ctermfg=1
 " Special for HTML ---
-hi htmlTag        ctermfg=6
-hi htmlEndTag     ctermfg=2
-hi htmlTagName    ctermfg=12
+hi htmlTag        ctermfg=250
+hi htmlEndTag     ctermfg=170
+hi htmlTagName    ctermfg=81
 hi htmlLink       ctermfg=15
 hi htmlSpecialTagName ctermfg=110
 
