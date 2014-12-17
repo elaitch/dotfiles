@@ -1,5 +1,6 @@
-" lawren's colours
-" was: miromiro by jasonwryan
+" lawren's colours, which probably now bear little resemblance
+" to the excellent "miromiro" theme by jasonwryan
+
 
 set background=dark
 hi clear
@@ -54,7 +55,7 @@ hi MatchParen      ctermfg=0    ctermbg=12
 hi ErrorMsg        ctermfg=15    ctermbg=9
 hi WildMenu        ctermfg=1    ctermbg=8
 hi Folded          cterm=reverse ctermfg=6    ctermbg=0
-hi Search          ctermfg=7    ctermbg=5
+hi Search          ctermfg=0    ctermbg=12
 hi IncSearch       ctermfg=15    ctermbg=0
 hi WarningMsg      ctermfg=0    ctermbg=5
 hi Question        ctermfg=7   ctermbg=12
