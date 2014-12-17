@@ -6,30 +6,35 @@ Xft.hinting:    1
 Xft.hintstyle:  hintslight
 Xft.rgba:       rgb
 
-! urxvt
+! urxvt fonts
 
 URxvt.font:-*-termsyn-medium-*-*-*-14-*-*-*-*-*-*-*
 URxvt.italicFont:xft:droid sans mono:pixelsize=11:italic:antialias=true:hinting=true
-URxvt.scrollBar: false
-URxvt.skipBuiltinGlyphs: true
-URxvt.depth:       16
-URxvt.letterSpace: 0
+URxvt.xftAntialias: true
+
+
+! urxvt options
+
 URxvt.boldMode: false
+URxvt.borderless: true
+URxvt.cursorBlink: false
+URxvt.cursorUnderline: false
+URxvt.depth:       16
 URxvt.imLocale: en_US.utf8
+URxvt.internalBorder: 5
+URxvt.jumpScroll: true
+URxvt.letterSpace: 0
 URxvt.loginShell: true
 URxvt.saveLines: 8192
-urxvt.geometry: 80x40
-URxvt.borderless: false
-URxvt.internalBorder: 5
-URxvt.xftAntialias: true
-URxvt.jumpScroll: true
-URxvt.cursorBlink: false
+URxvt.scrollBar: false
+URxvt.skipBuiltinGlyphs: true
+URxvt.transparent: false
 URxvt.underlineURLs: true
-URxvt.cursorUnderline: false
-URxvt*transparent: false
-urxvt*urgentOnBell: true
+urxvt.geometry: 80x40
+urxvt.urgentOnBell: true
 
-!extensions
+
+! perl extensions
 
 URxvt.perl-ext-common : default,clipboard,url-select,keyboard-select
 URxvt.keysym.M-u:       perl:url-select:select_next
