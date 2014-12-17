@@ -50,17 +50,17 @@ hi Todo            ctermfg=9
 hi MoreMsg         ctermfg=13
 hi ModeMsg         ctermfg=13
 hi Debug           ctermfg=1
-hi MatchParen      ctermfg=10    ctermbg=8
-hi ErrorMsg        ctermfg=0    ctermbg=9
+hi MatchParen      ctermfg=0    ctermbg=12
+hi ErrorMsg        ctermfg=15    ctermbg=9
 hi WildMenu        ctermfg=1    ctermbg=8
 hi Folded          cterm=reverse ctermfg=6    ctermbg=0
-hi Search          ctermfg=7    ctermbg=1
+hi Search          ctermfg=7    ctermbg=5
 hi IncSearch       ctermfg=15    ctermbg=0
 hi WarningMsg      ctermfg=0    ctermbg=5
-hi Question        ctermfg=10   ctermbg=8
-hi Pmenu           ctermfg=2    ctermbg=8
-hi PmenuSel        ctermfg=1    ctermbg=8
-hi Visual          ctermfg=1    ctermbg=8
+hi Question        ctermfg=7   ctermbg=12
+hi Pmenu           ctermfg=2    ctermbg=12
+hi PmenuSel        ctermfg=7    ctermbg=12
+hi Visual          ctermfg=7    ctermbg=12
 hi CursorLine      cterm=NONE   ctermbg=233
 hi CursorLineNr    ctermfg=11   ctermbg=233
 hi StatusLine      ctermfg=0    ctermbg=7
