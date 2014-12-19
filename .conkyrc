@@ -8,5 +8,5 @@ short_units yes
 pad_percents 2
 text
 
-^fg(\#888888)|^fg(\#70A5FF) Û ^fg(\#DDDDDD)${upspeed enp3s0}^fg(\#888888) | ^fg(\#70A5FF)Ú ^fg(\#DDDDDD)${downspeed enp3s0}^fg(\#888888) | ^fg(\#70A5FF)Ñ ^fg(\#DDDDDD)$cpu% ^fg(\#888888)| ^fg(\#70A5FF)± ^fg(\#DDDDDD)${execi 10 sensors | grep "Physical id 0:" | cut -c 18-24} ^fg(\#888888)| ^fg(\#70A5FF)Î ^fg(\#DDDDDD)$mem^fg(\#888888) | ^fg(\#70A5FF)É ^fg(\#DDDDDD) ${time %A, %b %d} ^fg(\#888888)-^fg(\#DDDDDD) ${time %I:%M%p} 
+^fg(\#70A5FF)¹^fg(\#DDDDDD) dwm-6.1 ^fg(\#888888)|^fg(\#70A5FF) Û ^fg(\#DDDDDD)${upspeed enp3s0}^fg(\#888888) | ^fg(\#70A5FF)Ú ^fg(\#DDDDDD)${downspeed enp3s0}^fg(\#888888) | ^fg(\#70A5FF)Ñ ^fg(\#DDDDDD)$cpu% ^fg(\#888888)| ^fg(\#70A5FF)± ^fg(\#DDDDDD)${execi 10 sensors | grep "Physical id 0:" | cut -c 18-24} ^fg(\#888888)| ^fg(\#70A5FF)Î ^fg(\#DDDDDD)$mem^fg(\#888888) | ^fg(\#70A5FF)É ^fg(\#DDDDDD) ${time %A, %b %d} ^fg(\#888888)-^fg(\#DDDDDD) ${time %I:%M%p} 
 
