@@ -5,8 +5,8 @@ xset -dpms; xset s off
 xset m 0 0 
 urxvtd -q -o -f
 
-# desktop bgs are OVER
-hsetroot -solid '#5794FF' & 
+# simple texturd bg
+hsetroot -fill ~/images/arch/geo5.jpg 
 
 # kb stuff
 xbindkeys 
