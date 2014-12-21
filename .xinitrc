@@ -22,7 +22,7 @@ nvidia-settings -a '[gpu:0]/GPUPowerMizerMode=1'
 sleep 5s && conky | dzen2 -x 1000 -w 1600 -ta r -bg "#222222" -fn -*-termsyn.icons-medium-*-*-*-13-*-*-*-*-*-*-* -e 'onstart=raise;button1=togglehide;entertitle=unhide' &
 
 # shadows are FANCY
-compton --config /home/lawren/.config/compton/compton.conf -b
+compton --config /home/lawren/dotfiles/.config/compton/compton.conf -b
 
 # automount
 udiskie &
