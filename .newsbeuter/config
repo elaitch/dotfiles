@@ -16,8 +16,8 @@ keep-articles-days 3
 color listnormal color255 default
 color listfocus white magenta bold
                                             
-color listnormal_unread color254 default bold
-color listfocus_unread color254 magenta bold
+color listnormal_unread color252 default bold
+color listfocus_unread color252 magenta bold
 
 color info black cyan
 color background white default

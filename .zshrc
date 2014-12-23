@@ -20,6 +20,7 @@ fi
 
 autoload -U colors && colors
 autoload -U promptinit && promptinit
+eval $(dircolors ~/.dircolors)
 prompt pure
 
 RPROMPT='$VIMODE'

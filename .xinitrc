@@ -3,7 +3,9 @@ xset -dpms; xset s off
 
 # no mouse accel
 xset m 0 0 
-urxvtd -q -o -f
+
+# urxvt daemon 
+#urxvtd -q -o -f
 
 # simple texturd bg
 hsetroot -fill ~/images/arch/geo5.jpg 
