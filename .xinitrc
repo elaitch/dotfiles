@@ -5,10 +5,10 @@ xset -dpms; xset s off
 xset m 0 0 
 
 # urxvt daemon 
-#urxvtd -q -o -f
+urxvtd -q -o -f
 
-# simple texturd bg
-hsetroot -fill ~/images/arch/geo5.jpg 
+# simple gradient bg
+hsetroot -fill ~/images/arch/grad2.png
 
 # kb stuff
 xbindkeys 
