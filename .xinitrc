@@ -8,7 +8,7 @@ xset m 0 0
 urxvtd -q -o -f
 
 # simple gradient bg
-hsetroot -fill ~/images/arch/grad2.png
+hsetroot -solid '#335085'
 
 # kb stuff
 xbindkeys 
