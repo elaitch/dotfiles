@@ -9,6 +9,7 @@ Xft.rgba:       rgb
 ! urxvt fonts
 
 URxvt.font:-*-termsyn-medium-*-*-*-14-*-*-*-*-*-*-*
+!URxvt.font:xft:source code pro medium:pixelsize=11:antialias=true:hinting=true
 URxvt.italicFont:xft:droid sans mono:pixelsize=11:italic:antialias=true:hinting=true
 URxvt.xftAntialias: true
 
@@ -17,7 +18,7 @@ URxvt.xftAntialias: true
 
 URxvt.boldMode: false
 URxvt.borderless: true
-URxvt.internalBorder: 5
+URxvt.internalBorder: 0
 URxvt.cursorBlink: false
 URxvt.cursorUnderline: false
 URxvt.depth:       16

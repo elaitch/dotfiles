@@ -5,9 +5,9 @@ xset -dpms; xset s off
 xset m 0 0 
 
 # urxvt daemon 
-urxvtd -q -o -f
+ urxvtd -q -o -f
 
-# simple gradient bg
+# simple bg
 hsetroot -solid '#335085'
 
 # kb stuff
