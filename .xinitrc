@@ -5,10 +5,11 @@ xset -dpms; xset s off
 xset m 0 0 
 
 # urxvt daemon 
- urxvtd -q -o -f
+urxvtd -q -o -f
 
 # simple bg
-hsetroot -solid '#335085'
+hsetroot -fill ~/images/arch/geo5.png
+
 
 # kb stuff
 xbindkeys 
@@ -24,7 +25,7 @@ nvidia-settings -a '[gpu:0]/GPUPowerMizerMode=1'
 sleep 5s && conky | dzen2 -x 1000 -w 1600 -ta r -bg "#222222" -fn -*-termsyn.icons-medium-*-*-*-13-*-*-*-*-*-*-* -e 'onstart=raise;button1=togglehide;entertitle=unhide' &
 
 # shadows are FANCY
-compton --config /home/lawren/dotfiles/.config/compton/compton.conf -b
+# compton --config /home/lawren/dotfiles/.config/compton/compton.conf -b
 
 # automount
 udiskie &
