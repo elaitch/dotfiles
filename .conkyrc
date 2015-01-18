@@ -8,5 +8,5 @@ short_units yes
 pad_percents 2
 text
 
-^fg(\#ff85e0)¹^fg(\#DDDDDD) dwm-6.1 ^fg(\#888888)| ^fg(\#ff85e0)È ^fg(\#DDDDDD) ${execpi 1500 checkupdates | wc -l} ^fg(\#888888)| ^fg(\#ff85e0)Å ^fg(\#DDDDDD)${exec amixer | grep -m1  "Front Left:" | cut -c 31-33 }^fg(\#888888) |^fg(\#ff85e0) Û ^fg(\#DDDDDD)${upspeed enp3s0}^fg(\#888888) | ^fg(\#ff85e0)Ú ^fg(\#DDDDDD)${downspeed enp3s0}^fg(\#888888) | ^fg(\#ff85e0)Ñ ^fg(\#DDDDDD)$cpu% ^fg(\#888888)| ^fg(\#ff85e0)± ^fg(\#DDDDDD)${execi 10 sensors | grep "Physical id 0:" | cut -c 18-24} ^fg(\#888888)| ^fg(\#ff85e0)Î ^fg(\#DDDDDD)$mem^fg(\#888888) | ^fg(\#ff85e0)É ^fg(\#DDDDDD) ${time %A, %b %d} ^fg(\#888888)-^fg(\#DDDDDD) ${time %I:%M%p} 
+^fg(\#ff85e0)¹^fg(\#DDDDDD) dwm-6.1 ^fg(\#888888)| ^fg(\#ff85e0)È ^fg(\#DDDDDD) ${execpi 1500 checkupdates | wc -l} ^fg(\#888888)| ^fg(\#ff85e0)Å ^fg(\#DDDDDD)${exec amixer | grep -m1  "Front Left:" | cut -c 31-33 }^fg(\#888888) |^fg(\#ff85e0) Û ^fg(\#DDDDDD)${upspeed enp3s0}^fg(\#888888) | ^fg(\#ff85e0)Ú^fg(\#DDDDDD)${downspeed enp3s0}^fg(\#888888) | ^fg(\#ff85e0)Ñ ^fg(\#DDDDDD)$cpu% ^fg(\#888888)| ^fg(\#ff85e0)± ^fg(\#DDDDDD)${execi 10 sensors | grep "Physical id 0:" | cut -c 18-24} ^fg(\#888888)| ^fg(\#ff85e0)Î ^fg(\#DDDDDD)$mem^fg(\#888888) | ^fg(\#ff85e0)É ^fg(\#DDDDDD) ${time %A, %b %d} ^fg(\#888888)-^fg(\#DDDDDD) ${time %I:%M%p} 
 

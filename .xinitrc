@@ -8,8 +8,10 @@ xset m 0 0
 urxvtd -q -o -f
 
 # simple bg
-hsetroot -fill ~/images/arch/geo5.png
+#hsetroot -fill ~/images/arch/geo5.png
 
+# random bg
+hsetroot -fill "$(find ~/images/hk/ -type f | shuf -n 1)"
 
 # kb stuff
 xbindkeys 
