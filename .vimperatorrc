@@ -2,8 +2,8 @@
 
 highlight Bell border: none; background-color: #f2f2f2;
 highlight CmdLine font-size: 12px; background: #454545; color: #f2f2f2; -moz-transition: all 0.25s;
-highlight CmdLine>* font-family: Liberation Mono;
-highlight CmdOutput white-space: pre; font-family: Liberation Mono; height 120px;
+highlight CmdLine>* font-family: ;
+highlight CmdOutput white-space: pre; font-family: ; height 120px;
 highlight CompDesc width: 500px; max-width: 500px; color: #A3A3A3;
 highlight CompItem font-size: 12px;
 highlight CompItem[selected] color: #f2f2f2 ; background: #383838;
@@ -12,31 +12,31 @@ highlight CompTitle>* color: #efefef; padding: 2px 0.5ex;
 highlight ContentSeparator border: 1px; display: -moz-box;
 highlight Disabled color: red;:
 highlight Enabled color: #006666;
-highlight ErrorMsg color: #f2f2f2; background: #C8567C; font-size: 12px;  font-family: Monospace; 
+highlight ErrorMsg color: #f2f2f2; background: #C8567C; font-size: 12px;  font-family: Dejavu Sans Mono; 
 highlight Filter color: #5c738a D;
 highlight FrameIndicator background-color: red; opacity: 0.5; z-index: 999; position: fixed; top: 0; bottom: 0; left: 0; right: 0;
-highlight Hint font-family: Monospace; font-size: 11px !important; font-weight: bold !important; color: #f2f2f2 !important; background-color: rgba(0, 0, 0, 0.6) !important; border: solid 1px #000000 !important; position: absolute !important;
+highlight Hint font-family: Dejavu Sans Mono; font-size: 11px !important; font-weight: bold !important; color: #f2f2f2 !important; background-color: rgba(0, 0, 0, 0.6) !important; border: solid 1px #000000 !important; position: absolute !important;
 highlight HintActive background: #668CFF !important; color: #f2f2f2 !important;
 highlight HintElem background-color: inherit !important;
 highlight HintImage opacity: .5 !important;
 highlight Indicator color: #5c738a D;
-highlight InfoMsg color: #f2f2f2; background: #454545; font-size: 12px; font-family: Monospace;  
+highlight InfoMsg color: #f2f2f2; background: #454545; font-size: 12px; font-family: Dejavu Sans Mono;  
 highlight Keyword color: khaki;
 highlight LineNr color: #ffd0d0; background: #454545;
 highlight Message white-space: normal; min-width: 100%; padding-left: 2em; text-indent: -2em; display: block; font-size: 12px; 
-highlight ModeMsg color: #f2f2f2; background: #454545; font-size: 12px;  font-family: Monospace; 
-highlight MoreMsg color: #94B8B8; background: #454545; font-size: 12px;  font-family: Monospace;  
-highlight NonText color: #5c738a D; min-height: 16px; padding-left: 2px; font-size: 12px;   font-family: Monospace; 
-highlight Normal color: #f2f2f2; background: #454545; font-size: 12px; font-family: Monospace;  
-highlight Preview color: #5c738a D; font-size: 12px;  font-family: Monospace; 
-highlight Prompt background: url("chrome://liberator/skin/prompt.png"); width: 14px; background-position: center; background-repeat: no-repeat;
-highlight PromptText color: #f2f2f2; background: #454545; font-size: 12px;  font-family: Monospace; 
+highlight ModeMsg color: #f2f2f2; background: #454545; font-size: 12px;  font-family: Dejavu Sans Mono; 
+highlight MoreMsg color: #94B8B8; background: #454545; font-size: 12px;  font-family: Dejavu Sans Mono;  
+highlight NonText color: #5c738a D; min-height: 16px; padding-left: 2px; font-size: 12px;   font-family: Dejavu Sans Mono; 
+highlight Normal color: #f2f2f2; background: #454545; font-size: 12px; font-family: Dejavu Sans Mono;  
+highlight Preview color: #5c738a D; font-size: 12px;  font-family: Dejavu Sans Mono; 
+highlight Prompt background: url("chrome://liberator/skin/prompt.png"); width: 12px; background-position: center; background-repeat: no-repeat;
+highlight PromptText color: #f2f2f2; background: #454545; font-size: 12px;  font-family: Dejavu Sans Mono; 
 highlight Question color: #f2f2f2; background: #454545; font-weight: bold;
-highlight StatusLine color: #f2f2f2; background: transparent; font-weight: normal; font-size: 12px; font-family: Monospace; 
+highlight StatusLine color: #f2f2f2; background: transparent; font-weight: normal; font-size: 12px; font-family: Dejavu Sans Mono; 
 highlight Tag color: #f2f2f2;
 highlight Title color: #f2f2f2; background: #454545; font-weight: bold;
 highlight URL text-decoration: none; color: #efefef;
-highlight WarningMsg color: #f2f2f2; background: #C8567C; font-size: 12px;  font-family: Monospace;  
+highlight WarningMsg color: #f2f2f2; background: #C8567C; font-size: 12px;  font-family: Dejavu Sans Mono;  
 noremap k kk
 noremap j jj
 map <A-w> gt
