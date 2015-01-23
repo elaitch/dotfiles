@@ -17,7 +17,8 @@ unclutter -noevents -idle 3 &
 # max performance! 
 nvidia-settings -a '[gpu:0]/GPUPowerMizerMode=1'
 
-sleep 5s && conky | dzen2 -x 1000 -w 1600 -ta r -bg "#222222" -fn 'xft:Ubuntu  Mono:pixelsize=13' -e 'onstart=raise;button1=togglehide;entertitle=unhide' &
+# simple status bar
+sleep 5s && conky | dzen2 -x 1000 -w 1600 -ta r -bg "#222222" -fn "Ubuntu Mono" -e 'onstart=raise;button1=togglehide;entertitle=unhide' & 
 
 # automount
 udiskie &
