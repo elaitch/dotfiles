@@ -5,9 +5,9 @@ total_run_times 0
 use_spacer left
 default_color #DDDDDD
 short_units yes
-pad_percents 0
-color3 ff85e0
+pad_percents 2
+
 text
-${exec speed ens3p0}  ${exec amixer | grep -m1  "Front Left:" | cut -c 31-33 } ❎ $cpu% 🌡 ${execi 10 sensors | grep "Physical id 0:" | cut -c 18-24}  ${time %a, %b %d} ${time %I:%M%p} 
+^fg(\#ff85e0)^i(/home/lawren/images/xbm/dwm.xbm)^fg(\#DDDDDD) 6.1 ^fg(\#888888)| ^fg(\#ff85e0)^fg(\#ff85e0)^i(/home/lawren/images/xbm/pacman.xbm) ^fg(\#DDDDDD) ${execpi 1500 checkupdates | wc -l} ^fg(\#888888)| ^fg(\#ff85e0)^fg(\#ff85e0)^i(/home/lawren/images/xbm/spkr_01.xbm) ^fg(\#DDDDDD)${exec amixer | grep -m1 "Front Left:" | cut -c 31-33 }^fg(\#888888) | ^fg(\#ff85e0)^i(/home/lawren/images/xbm/cpu.xbm) ^fg(\#DDDDDD)$cpu% ^fg(\#888888)| ^fg(\#ff85e0)^i(/home/lawren/images/xbm/temp.xbm) ^fg(\#DDDDDD)${execi 10 sensors | grep "Physical id 0:" | cut -c 18-24} ^fg(\#888888)| ^fg(\#ff85e0)^i(/home/lawren/images/xbm/mem.xbm) ^fg(\#DDDDDD)$memperc% - $mem^fg(\#888888) | ^fg(\#ff85e0)^i(/home/lawren/images/xbm/clock.xbm) ^fg(\#DDDDDD) ${time %A, %b %d} ^fg(\#888888)-^fg(\#DDDDDD) ${time %I:%M%p} 
 
 
