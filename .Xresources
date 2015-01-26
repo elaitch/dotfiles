@@ -15,7 +15,6 @@ URxvt.xftAntialias: true
 
 
 ! urxvt options
-
 URxvt.boldMode: false
 URxvt.borderless: true
 URxvt.internalBorder: 3
@@ -47,8 +46,6 @@ URxvt.url-select.underline: true
 
 !colors
 
-URxvt*background:            #222222
-!URxvt*background: 		#21242F
 URxvt*foreground:            #e6e6e6
 URxvt*cursorColor:           #EFEFEF
 URxvt*colorBD:               #FFFFFF
