@@ -25,6 +25,7 @@ set showmatch
 set smartcase
 set suffixes=.bak,~,.swp,.o,.info,.aux,.log,.dvi,.bbl,.blg,.brf,.cb,.ind,.idx,.ilg,.inx,.out,.toc
 
+
 " spell check
 :map <F5> :setlocal spell! spelllang=en_us<CR>
 :nmap <C-N><C-N> :set invnumber<CR>
