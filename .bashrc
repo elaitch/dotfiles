@@ -8,6 +8,8 @@ if [ -f /etc/bash_completion ]; then
 . /etc/bash_completion
 fi
 
+bind 'set match-hidden-files on'
+
 # zsh-esque completion
 bind 'set show-all-if-ambiguous on'
 bind 'TAB:menu-complete'
@@ -32,7 +34,7 @@ export HISTFILESIZE=100000
 PS1='\[\e[0;36m\]\w\[\e[m\]\[\e[1;34m\] $(__git_ps1 "%s")\[\e[m\]
 >'
 
-# Tmuxinator. lazy. 
+# Tmuxinator, lazy 
 PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
 source ~/scripts/tmuxinator.zsh
 
