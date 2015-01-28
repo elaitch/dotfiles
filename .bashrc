@@ -35,6 +35,8 @@ PS1='\[\e[0;36m\]\w\[\e[m\]\[\e[1;34m\] $(__git_ps1 "%s")\[\e[m\]
 # for git prompt
 source /usr/share/git/completion/git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1
+export GIT_PS1_SHOWUNTRACKEDFILES=1
+export GIT_PS1_SHOWUPSTREAM=1
 
 # Key bindings, up/down arrow searches through history
 bind '"\e[A": history-search-backward'
