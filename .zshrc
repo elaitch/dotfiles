@@ -2,9 +2,9 @@ source ~/.zsh/history.zsh
 source ~/.zsh/complete.zsh
 
 # Variables
-export BROWSER="firefox"
-export EDITOR="/usr/bin/vim"
-export VISUAL="/usr/bin/vim"
+export BROWSER='firefox'
+export EDITOR='/usr/bin/vim'
+export VISUAL='/usr/bin/vim'
 
 # General opt
 setopt correct
@@ -65,6 +65,7 @@ eval $(dircolors ~/.dircolors)
 PATH="`ruby -e 'print Gem.user_dir'`/bin:$PATH"
 source ~/scripts/tmuxinator.zsh
 alias=td='tmux detach'
+alias tm='tmuxinator start lh'
 
 # Aliases
 
@@ -72,21 +73,21 @@ alias=td='tmux detach'
 alias la='ls -A --group-directories-first --color=auto'
 alias ls='ls --group-directories-first --color=auto'
 alias rm='rm -i'
-alias grep="grep --color=auto"
+alias grep='grep --color=auto'
 
 # pacman
-alias pacU="sudo pacman -Syu"
-alias pacQ="pacman -Qii"
-alias pacI="sudo pacman --upgrade"
-alias pacX="sudo pacman --remove --nosave --recursive"
-alias pacx="sudo pacman --remove'"
+alias pacU='sudo pacman -Syu'
+alias pacQ='pacman -Qii'
+alias pacI='sudo pacman --upgrade'
+alias pacX='sudo pacman --remove --nosave --recursive'
+alias pacx='sudo pacman --remove'
 
 # git
-alias ga="git add"
-alias gc="git commit"
-alias gca="git commit -a"
-alias gp="git push"
-alias gs="git status"
+alias ga='git add'
+alias gc='git commit'
+alias gca='git commit -a'
+alias gp='git push'
+alias gs='git status'
 
 # misc
 alias tmux-dome='tmuxinator start dome'
