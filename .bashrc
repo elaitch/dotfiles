@@ -1,11 +1,11 @@
-# my first~
+# My first~
 # ~/.bashrc
-#
+
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-# Bash completion
+# bash completion
 if [ -f /etc/bash_completion ]; then
 . /etc/bash_completion
 fi
@@ -15,31 +15,39 @@ bind 'set show-all-if-ambiguous on'
 bind 'TAB:menu-complete'
 bind 'set completion-ignore-case on'
 
+# i know what these do. i mean, not really
+# but i did read a little blurb about each
+# one before adding it! 
+
 shopt -s cdspell 
 shopt -s checkwinsize
 shopt -s cmdhist
 shopt -s dotglob
-shopt -s extglob # Neccessary for programmable completion
+shopt -s extglob
 shopt -s histappend histreedit histverify
 
 # Avoid duplicates
 export HISTCONTROL=ignoreboth 
 
-# and never forget
+# and dont't forget
 export HISTSIZE=1000                   
 export HISTFILESIZE=100000 
 
-# prompt
+# Simple prompt: "I think I know my own name." 
 PS1='\[\e[0;36m\]\w\[\e[m\]\[\e[1;34m\] $(__git_ps1 "%s")\[\e[m\]
 >'
 
-# for git prompt
+# Tmuxinator. lazy. 
+PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
+source ~/scripts/tmuxinator.zsh
+
+# For git prompt
 source /usr/share/git/completion/git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1
 export GIT_PS1_SHOWUNTRACKEDFILES=1
 export GIT_PS1_SHOWUPSTREAM=1
 
-# Key bindings, up/down arrow searches through history
+# Up/down arrow searches through history
 bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
 bind '"\eOA": history-search-backward'
@@ -47,6 +55,7 @@ bind '"\eOB": history-search-forward'
 
 # Aliases
 
+# general
 alias ls='ls -A --group-directories-first --color=auto'
 alias rm='rm -i'
 
