@@ -5,7 +5,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-# bash completion
+# Bash completion
 if [ -f /etc/bash_completion ]; then
 . /etc/bash_completion
 fi
@@ -15,9 +15,7 @@ bind 'set show-all-if-ambiguous on'
 bind 'TAB:menu-complete'
 bind 'set completion-ignore-case on'
 
-# i know what these do. i mean, not really
-# but i did read a little blurb about each
-# one before adding it! 
+# I know what these do
 
 shopt -s cdspell 
 shopt -s checkwinsize
@@ -69,7 +67,7 @@ alias pacx="sudo pacman --remove'"
 # git
 alias ga="git add"
 alias gc="git commit"
-alias gca="git commit all"
+alias gca="git commit -a"
 alias gp="git push"
 alias gs="git status"
 
