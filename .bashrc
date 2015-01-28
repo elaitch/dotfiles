@@ -75,4 +75,3 @@ alias gs="git status"
 
 # misc
 alias tmux-dome='tmuxinator start dome'
-
