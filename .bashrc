@@ -10,9 +10,10 @@ if [ -f /etc/bash_completion ]; then
 . /etc/bash_completion
 fi
 
-# make completion zsh-esque
+# zsh-esque completion
 bind 'set show-all-if-ambiguous on'
 bind 'TAB:menu-complete'
+bind 'set completion-ignore-case on'
 
 shopt -s cdspell 
 shopt -s checkwinsize
