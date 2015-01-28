@@ -8,20 +8,27 @@ if [ -f /etc/bash_completion ]; then
 . /etc/bash_completion
 fi
 
-bind 'set match-hidden-files on'
+bind 'set match-hidden-files on' 
 
 # zsh-esque completion
 bind 'set show-all-if-ambiguous on'
 bind 'TAB:menu-complete'
 bind 'set completion-ignore-case on'
 
-# I know what these do
-shopt -s cdspell 
-shopt -s checkwinsize
-shopt -s cmdhist
-shopt -s dotglob
-shopt -s extglob
-shopt -s histappend histreedit histverify
+# I *totally* know what these do
+
+shopt -s cdspell 	# Correct minor spelling errors in a cd
+shopt -s checkwinsize 	# If neccessary, updates the values of LINES and COLUMNS
+shopt -s cmdhist	# Save multiple lines in a single entry
+shopt -s dotglob	# Include '.' in filename expansion
+shopt -s extglob	# Extended pattern matching features
+shopt -s nocaseglob	# Case insensitive expansion
+shopt -s histappend 	# Don't overwrite, append
+shopt -s histreedit 	# Re-edit failed subs 
+shopt -s histverify 	# Allow for further modification on !! etc 
+
+# visual bell
+set bell-style visible
 
 # Avoid duplicates
 export HISTCONTROL=ignoreboth 
@@ -33,6 +40,8 @@ export HISTFILESIZE=100000
 # Simple prompt: "I think I know my own name." 
 PS1='\[\e[0;36m\]\w\[\e[m\]\[\e[1;34m\] $(__git_ps1 "%s")\[\e[m\]
 >'
+# share history across all terminals
+PROMPT_COMMAND="history -a; history -c; history -r"
 
 # Tmuxinator, lazy 
 PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
@@ -55,6 +64,7 @@ bind '"\eOB": history-search-forward'
 # general
 alias ls='ls -A --group-directories-first --color=auto'
 alias rm='rm -i'
+
 
 # pacman
 alias pacU="sudo pacman -Syu"
