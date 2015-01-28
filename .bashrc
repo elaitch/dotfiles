@@ -1,6 +1,4 @@
-# My first~
-# ~/.bashrc
-
+# My first .bashrc
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
@@ -16,7 +14,6 @@ bind 'TAB:menu-complete'
 bind 'set completion-ignore-case on'
 
 # I know what these do
-
 shopt -s cdspell 
 shopt -s checkwinsize
 shopt -s cmdhist
