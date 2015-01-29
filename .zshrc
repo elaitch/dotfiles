@@ -1,5 +1,5 @@
 source ~/.zsh/history.zsh
-source ~/.zsh/complete.zsh
+source ~/.zsh/completion.zsh
 
 # Variables
 export BROWSER='firefox'
@@ -84,9 +84,8 @@ alias gca='git commit -a'
 alias gp='git push'
 alias gs='git status'
 
-# misc
-alias tmux-dome='tmuxinator start dome'
-alias virtualBox='virtualbox'
+# no correct
+alias virtualbox 'nocorrect virtualbox'
 
 # fix git complete hangs?
 __git_files () { 
