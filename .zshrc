@@ -1,3 +1,4 @@
+source ~/.zsh/keys.zsh
 source ~/.zsh/history.zsh
 source ~/.zsh/completion.zsh
 
@@ -26,9 +27,8 @@ SAVEHIST=10000
 # History search  
 # bind UP and DOWN arrow keys
 zmodload zsh/terminfo
-bindkey '\e[A' history-substring-search-up
-bindkey '\e[B' history-substring-search-down
-
+bindkey "$terminfo[kcuu1]" history-substring-search-up
+bindkey "$terminfo[kcud1]" history-substring-search-down
 
 # Prompt
 autoload -U promptinit && promptinit
@@ -36,18 +36,8 @@ prompt pure
 PURE_GIT_UNTRACKED_DIRTY=0
 
 # Use vi mode
-bindkey -v
+bindkey -e
 
-# set VIMODE according to the current mode (default “[i]”)
-VIMODE='[i]'
-function zle-keymap-select {
-VIMODE="${${KEYMAP/vicmd/[n]}/(main|viins)/[i]}"
-zle reset-prompt
-}
-zle -N zle-keymap-select
-
-# and show in rprompt
-RPROMPT='$VIMODE'
 
 
 # Dircolors
