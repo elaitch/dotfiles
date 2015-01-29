@@ -45,7 +45,7 @@ URxvt.url-select.underline: true
 
 
 !colors
-
+URxvt*background:            #222222
 URxvt*foreground:            #e6e6e6
 URxvt*cursorColor:           #EFEFEF
 URxvt*colorBD:               #FFFFFF

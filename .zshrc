@@ -27,18 +27,18 @@ SAVEHIST=10000
 # History search  
 # bind UP and DOWN arrow keys
 zmodload zsh/terminfo
-bindkey "$terminfo[kcuu1]" history-substring-search-up
-bindkey "$terminfo[kcud1]" history-substring-search-down
+bindkey -M emacs '^P' history-substring-search-up
+bindkey -M emacs '^N' history-substring-search-down
 
 # Prompt
 autoload -U promptinit && promptinit
 prompt pure
 PURE_GIT_UNTRACKED_DIRTY=0
 
-# Use vi mode
+# Use emacs mode
 bindkey -e
-
-
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
 
 # Dircolors
 autoload -U colors && colors
@@ -55,7 +55,7 @@ alias tm='tmuxinator start lh'
 # Aliases
 
 # general
-alias la='ls -A --group-directories-first --color=auto'
+alias l='ls -A --group-directories-first --color=auto'
 alias ls='ls --group-directories-first --color=auto'
 alias rm='rm -i'
 alias grep='grep --color=auto'
