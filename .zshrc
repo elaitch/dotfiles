@@ -33,7 +33,7 @@ bindkey '\e[B' history-substring-search-down
 # Prompt
 autoload -U promptinit && promptinit
 prompt pure
-
+PURE_GIT_UNTRACKED_DIRTY=0
 
 # Use vi mode
 bindkey -v
