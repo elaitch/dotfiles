@@ -8,7 +8,6 @@ if &cp | set nocp | endif
 syntax on
 
 " set
-
 set background=dark
 set fileencodings=ucs-bom,utf-8,default,latin1
 set helplang=en
@@ -24,7 +23,6 @@ set showcmd
 set showmatch
 set smartcase
 set suffixes=.bak,~,.swp,.o,.info,.aux,.log,.dvi,.bbl,.blg,.brf,.cb,.ind,.idx,.ilg,.inx,.out,.toc
-
 
 " spell check
 :map <F5> :setlocal spell! spelllang=en_us<CR>
