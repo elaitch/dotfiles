@@ -10,7 +10,10 @@ xbindkeys
 setxkbmap -option compose:ralt -option ctrl:nocaps
 
 # simple geometric bg
-hsetroot -fill ~/images/arch/geo5.png
+#hsetroot -fill ~/images/arch/geo5.png
+
+# solid bg
+hsetroot -solid '#335085'
 
 # hide cursor
 unclutter -noevents -idle 3 &
@@ -24,6 +27,8 @@ pactl list sinks
 # simple status
 sleep 5s && conky | dzen2 -x 1000 -w 1600 -ta r -bg "#222222" -fn 'Ubuntu Mono-10.5' -e 'onstart=raise;button1=togglehide;entertitle=unhide' & 
 
+# shadows are FANCY
+compton --config /home/lawren/dotfiles/.config/compton/compton.conf -b
 
 # automount
 udiskie &
