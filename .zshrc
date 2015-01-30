@@ -50,8 +50,8 @@ PURE_GIT_UNTRACKED_DIRTY=0
 
 # Use emacs mode
 bindkey -e
-bindkey "^[[1;5C" forward-word
-bindkey "^[[1;5D" backward-word
+bindkey '^[[1;5C' forward-word
+bindkey '^[[1;5D' backward-word
 
 # Dircolors
 autoload -U colors && colors
@@ -65,12 +65,18 @@ source ~/scripts/tmuxinator.zsh
 alias=td='tmux detach'
 alias tm='tmuxinator start lh'
 
+# Bindings 
+
+# Shift + Tab to go to the previous menu item.
+bindkey  '^[[Z' reverse-menu-complete
+
 # Aliases
 
 # general
 alias l='ls -A --group-directories-first --color=auto'
 alias ls='ls --group-directories-first --color=auto'
-alias rm='rm -i'
+alias rm='rm -iv'
+alias mkdir='mkdir -pv'
 alias grep='grep --color=auto'
 
 # pacman
@@ -87,8 +93,6 @@ alias gca='git commit -a'
 alias gp='git push'
 alias gs='git status'
 
-# no correct
-alias virtualbox 'nocorrect virtualbox'
 
 # fix git complete hangs?
 __git_files () { 
