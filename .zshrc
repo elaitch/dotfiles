@@ -88,8 +88,8 @@ alias pacx='sudo pacman --remove'
 
 # git
 alias ga='git add'
-alias gc='git commit'
-alias gca='git commit -a'
+alias gc='git commit --verbose '
+alias gca='git commit --verbose --all'
 alias gp='git push'
 alias gs='git status'
 
