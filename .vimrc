@@ -1,4 +1,4 @@
-" Makes thou this shame thy pastime?
+" Makest thou this shame thy pastime?
 " -- William Shakespeare on my .vimrc
 
 " general
