@@ -69,8 +69,8 @@ bindkey  '^[[Z' reverse-menu-complete
 # Aliases
 
 # general
-alias l='ls -A --group-directories-first --color=auto'
-alias ls='ls --group-directories-first --color=auto'
+alias l='ls -AL --group-directories-first --color=auto'
+alias ls='ls -L --group-directories-first --color=auto'
 alias rm='rm -iv'
 alias mkdir='mkdir -pv'
 alias grep='grep --color=auto'
