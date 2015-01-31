@@ -1,3 +1,4 @@
+# startx tty1
 [[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && exec startx
 
 if [[ "$SHLVL" -eq 1 && ! -o LOGIN && -s "${ZDOTDIR:-$HOME}/.zprofile" ]]; then

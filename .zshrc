@@ -2,11 +2,6 @@ source ~/.zsh/keys.zsh
 source ~/.zsh/history.zsh
 source ~/.zsh/completion.zsh
 
-# Variables
-export BROWSER='firefox'
-export EDITOR='/usr/bin/vim'
-export VISUAL='/usr/bin/vim'
-
 # Directory options
 setopt AUTO_CD 			# Auto changes to a directory without typing cd.
 setopt AUTO_PUSHD 		# Push the old directory onto the stack on cd.
