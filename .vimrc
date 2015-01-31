@@ -24,6 +24,19 @@ set showmatch
 set smartcase
 set suffixes=.bak,~,.swp,.o,.info,.aux,.log,.dvi,.bbl,.blg,.brf,.cb,.ind,.idx,.ilg,.inx,.out,.toc
 
+function MultiScroll(OnOff)
+if a:OnOff == 1
+  noremap j 5j
+  noremap k 5k
+else
+  noremap j j
+  noremap k k
+endif
+endfunction 
+
+map \j :call MultiScroll(1)<RETURN>
+map \k :call MultiScroll(0)<RETURN>
+
 " spell check
 :map <F5> :setlocal spell! spelllang=en_us<CR>
 :nmap <C-N><C-N> :set invnumber<CR>

@@ -62,8 +62,9 @@ eval $(dircolors ~/.dircolors)
 # Tmux
 PATH="`ruby -e 'print Gem.user_dir'`/bin:$PATH"
 source ~/scripts/tmuxinator.zsh
-alias=td='tmux detach'
+alias td='tmux detach'
 alias tm='tmuxinator start lh'
+alias tw='tmuxinator start wee'
 
 # Bindings 
 

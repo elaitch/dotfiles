@@ -5,7 +5,7 @@ xset -dpms; xset s off
 xset m 0 0 
 
 # kb stuff
-xset r rate 350 30
+xset r rate 350 40
 xbindkeys 
 setxkbmap -option compose:ralt -option ctrl:nocaps
 
