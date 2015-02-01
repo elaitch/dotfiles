@@ -18,7 +18,7 @@ unsetopt CLOBBER 		# Do not overwrite existing files with > and >>.
 HISTFILE=~/.zhistory
 HISTSIZE=10000
 SAVEHIST=10000
-alias history-stat="history 0 | awk '{print \$2}' | sort | uniq -c | sort -n -r | head"
+alias hs="history 0 | awk '{print \$2}' | sort | uniq -c | sort -n -r | head"
 
 setopt BANG_HIST 		# Treat the '!' character specially during expansion.
 setopt INC_APPEND_HISTORY 	# Write to the history file immediately, not when the shell exits.
@@ -89,19 +89,8 @@ alias gca='git commit --verbose --all'
 alias gp='git push'
 alias gs='git status'
 
-# dirstack
-alias ds='dirs -v'
-alias 0='cd -0'
-alias 10='cd -10'
-alias 1='cd -1'
-alias 2='cd -2'
-alias 3='cd -3'
-alias 4='cd -4'
-alias 5='cd -5'
-alias 6='cd -6'
-alias 7='cd -7'
-alias 8='cd -8'
-alias 9='cd -9'
+alias d='dirs -v'
+for index ({1..9}) alias "$index"="cd +${index}"; unset index
 
 # fix git complete hangs?
 __git_files () { 

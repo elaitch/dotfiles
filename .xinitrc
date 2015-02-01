@@ -12,8 +12,11 @@ setxkbmap -option compose:ralt -option ctrl:nocaps
 # simple geometric bg
 #hsetroot -fill ~/images/arch/geo5.png
 
-# solid bg
-hsetroot -solid '#335085'
+# blue bg
+# hsetroot -solid '#335085'
+
+# purple bg
+hsetroot -solid '#5854AB'
 
 # hide cursor
 unclutter -noevents -idle 3 &
