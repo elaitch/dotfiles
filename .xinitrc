@@ -9,14 +9,12 @@ xset r rate 350 40
 xbindkeys 
 setxkbmap -option compose:ralt -option ctrl:nocaps
 
-# simple geometric bg
-#hsetroot -fill ~/images/arch/geo5.png
 
-# blue bg
-# hsetroot -solid '#335085'
+# thistle4
+hsetroot -solid '#8B7B8B'
 
-# purple bg
-hsetroot -solid '#5854AB'
+# plum 4 
+#hsetroot -solid '#8B668B'
 
 # hide cursor
 unclutter -noevents -idle 3 &

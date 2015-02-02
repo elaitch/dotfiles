@@ -45,8 +45,8 @@ PURE_GIT_UNTRACKED_DIRTY=0
 
 # Use emacs mode
 bindkey -e
-bindkey '^[[1;5C' forward-word
-bindkey '^[[1;5D' backward-word
+bindkey '^[[1;5C' emacs-forward-word
+bindkey '^[[1;5D' emacs-backward-word
 
 # Dircolors
 autoload -U colors && colors
@@ -89,7 +89,7 @@ alias gca='git commit --verbose --all'
 alias gp='git push'
 alias gs='git status'
 
-alias d='dirs -v'
+alias ds='dirs -v'
 for index ({1..9}) alias "$index"="cd +${index}"; unset index
 
 # fix git complete hangs?
