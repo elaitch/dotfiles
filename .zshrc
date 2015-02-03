@@ -33,7 +33,6 @@ setopt HIST_VERIFY 		# Do not execute immediately upon history expansion.
 setopt HIST_BEEP 		# Beep when accessing non-existent history.
 
 # History search  
-# bind UP and DOWN arrow keys
 zmodload zsh/terminfo
 bindkey -M emacs '^P' history-substring-search-up
 bindkey -M emacs '^N' history-substring-search-down
@@ -45,6 +44,7 @@ PURE_GIT_UNTRACKED_DIRTY=0
 
 # Use emacs mode
 bindkey -e
+
 bindkey '^[[1;5C' emacs-forward-word
 bindkey '^[[1;5D' emacs-backward-word
 
@@ -65,6 +65,10 @@ alias tw='tmuxinator start wee'
 
 # Shift + Tab to go to the previous menu item.
 bindkey  '^[[Z' reverse-menu-complete
+# Ctrl - arrow 
+bindkey '^[[1;5C' emacs-forward-word
+bindkey '^[[1;5D' emacs-backward-word
+
 
 # Aliases
 
