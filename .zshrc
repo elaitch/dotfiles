@@ -69,8 +69,21 @@ bindkey  '^[[Z' reverse-menu-complete
 # Aliases
 
 # general
+alias rm='rm -iv'
+alias mkdir='mkdir -pv'
+alias grep='grep --color=auto'
+alias hl='cat ~/documents/ell'
+alias hs='cat ~/documents/cs'
+
+# ell ess
 alias l='ls -AL --group-directories-first --color=auto'
 alias ls='ls -L --group-directories-first --color=auto'
+alias lh='ls -lh' 		# Lists human readable sizes.
+alias lhh='ls -lhA' 		# Lists human readable sizes, hidden files.
+alias lx='ls -lhXB' 		# Lists sorted by extension (GNU only).
+alias lk='ls -lhSr' 		# Lists sorted by size, largest last.
+alias lc='ls -trc' 		# Lists sorted by date, most recent last, shows change time.
+
 alias rm='rm -iv'
 alias mkdir='mkdir -pv'
 alias grep='grep --color=auto'
@@ -87,6 +100,7 @@ alias ga='git add'
 alias gc='git commit --verbose '
 alias gca='git commit --verbose --all'
 alias gp='git push'
+alias gpl='git pull'
 alias gs='git status'
 
 alias ds='dirs -v'
