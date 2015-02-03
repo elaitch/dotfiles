@@ -82,7 +82,7 @@ alias lh='ls -lh' 		# Lists human readable sizes.
 alias lhh='ls -lhA' 		# Lists human readable sizes, hidden files.
 alias lx='ls -lhXB' 		# Lists sorted by extension (GNU only).
 alias lk='ls -lhSr' 		# Lists sorted by size, largest last.
-alias lc='ls -trc' 		# Lists sorted by date, most recent last, shows change time.
+alias lc='ls -lhtrc' 		# Lists sorted by date, most recent last, shows change time.
 
 alias rm='rm -iv'
 alias mkdir='mkdir -pv'
