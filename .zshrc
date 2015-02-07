@@ -1,3 +1,7 @@
+typeset -U path
+export PATH="`ruby -e 'print Gem.user_dir'`/bin:$PATH"
+
+
 source ~/.zsh/keys.zsh
 source ~/.zsh/history.zsh
 source ~/.zsh/completion.zsh
@@ -53,9 +57,7 @@ autoload -U colors && colors
 autoload -U promptinit && promptinit
 eval $(dircolors ~/.dircolors)
 
-
 # Tmux
-PATH="`ruby -e 'print Gem.user_dir'`/bin:$PATH"
 source ~/scripts/tmuxinator.zsh
 alias td='tmux detach'
 alias tm='tmuxinator start lh'
@@ -86,7 +88,10 @@ alias lh='ls -lh' 		# Lists human readable sizes.
 alias lhh='ls -lhA' 		# Lists human readable sizes, hidden files.
 alias lx='ls -lhXB' 		# Lists sorted by extension (GNU only).
 alias lk='ls -lhSr' 		# Lists sorted by size, largest last.
+alias lka='ls -AlhSr'		# + all
 alias lc='ls -lhtrc' 		# Lists sorted by date, most recent last, shows change time.
+alias lca='ls -Alhtrc' 		# + all
+
 
 alias rm='rm -iv'
 alias mkdir='mkdir -pv'

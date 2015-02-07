@@ -1,5 +1,5 @@
 typeset -U path
-path=(~/bin $path)
+path+=(~/bin)
 
 export EDITOR=vim
 export VISUAL=vim
