@@ -3,6 +3,7 @@
 typeset -U path
 export PATH="`ruby -e 'print Gem.user_dir'`/bin:$PATH"
 
+zmodload zsh/terminfo
 
 source ~/dotfiles/zsh/keys.zsh
 source ~/dotfiles/zsh/history.zsh
@@ -38,43 +39,39 @@ setopt HIST_SAVE_NO_DUPS 	# Do not write a duplicate event to the history file.
 setopt HIST_VERIFY 		# Do not execute immediately upon history expansion.
 setopt HIST_BEEP 		# Beep when accessing non-existent history.
 
-# History search  
-zmodload zsh/terminfo
-bindkey -M emacs '^P' history-substring-search-up
-bindkey -M emacs '^N' history-substring-search-down
-
 # Prompt
 autoload -U promptinit && promptinit
 prompt pure
-PURE_GIT_UNTRACKED_DIRTY=0
-
-# Use emacs mode
-bindkey -e
-
-bindkey '^[[1;5C' emacs-forward-word
-bindkey '^[[1;5D' emacs-backward-word
+PURE_GIT_UNTRACKED_DIRTY=1
 
 # Dircolors
 autoload -U colors && colors
 autoload -U promptinit && promptinit
 eval $(dircolors ~/.dircolors)
 
+# Use emacs mode
+bindkey -e
+
+# Bindings
+
+# ctrl arrow
+bindkey '^[[1;5C' emacs-forward-word
+bindkey '^[[1;5D' emacs-backward-word
+
+# history search  
+bindkey -M emacs '^P' history-substring-search-up
+bindkey -M emacs '^N' history-substring-search-down
+
+# shift + tab to go to the previous menu item.
+bindkey  '^[[Z' reverse-menu-complete
+
+# Aliases
+
 # Tmux
 source ~/scripts/tmuxinator.zsh
 alias td='tmux detach'
 alias tm='tmuxinator start lh'
 alias tw='tmuxinator start wee'
-
-# Bindings 
-
-# Shift + Tab to go to the previous menu item.
-bindkey  '^[[Z' reverse-menu-complete
-# Ctrl - arrow 
-bindkey '^[[1;5C' emacs-forward-word
-bindkey '^[[1;5D' emacs-backward-word
-
-
-# Aliases
 
 # general
 alias rm='rm -iv'
@@ -94,11 +91,6 @@ alias lk='ls -lhSr' 		# Lists sorted by size, largest last.
 alias lka='ls -AlhSr'		# + all
 alias lc='ls -lhtrc' 		# Lists sorted by date, most recent last, shows change time.
 alias lca='ls -Alhtrc' 		# + all
-
-
-alias rm='rm -iv'
-alias mkdir='mkdir -pv'
-alias grep='grep --color=auto'
 
 # pacman
 alias pacU='sudo pacman -Syu'
