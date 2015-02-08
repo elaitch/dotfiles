@@ -80,6 +80,7 @@ alias mkdir='mkdir -pv'
 alias grep='grep --color=auto'
 alias hl='cat ~/documents/ell'
 alias hs='cat ~/documents/cs'
+alias virtualBox='virtualbox'
 
 # ell ess
 alias l='ls -AL --group-directories-first --color=auto'
