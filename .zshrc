@@ -2,9 +2,9 @@ typeset -U path
 export PATH="`ruby -e 'print Gem.user_dir'`/bin:$PATH"
 
 
-source ~/.zsh/keys.zsh
-source ~/.zsh/history.zsh
-source ~/.zsh/completion.zsh
+source ~/dotfiles/zsh/keys.zsh
+source ~/dotfiles/zsh/history.zsh
+source ~/dotfiles/zsh/completion.zsh
 
 # Directory options
 setopt AUTO_CD 			# Auto changes to a directory without typing cd.
