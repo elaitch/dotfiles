@@ -67,12 +67,6 @@ bindkey  '^[[Z' reverse-menu-complete
 
 # Aliases
 
-# Tmux
-source ~/scripts/tmuxinator.zsh
-alias td='tmux detach'
-alias tm='tmuxinator start lh'
-alias tw='tmuxinator start wee'
-
 # general
 alias rm='rm -iv'
 alias mkdir='mkdir -pv'
@@ -80,8 +74,18 @@ alias grep='grep --color=auto'
 alias hl='cat ~/documents/ell'
 alias hs='cat ~/documents/cs'
 alias virtualBox='virtualbox'
+alias ds='dirs -v'
+for index ({1..9}) alias "$index"="cd +${index}"; unset index
 
-# ell ess
+# git
+alias ga='git add'
+alias gc='git commit --verbose '
+alias gca='git commit --verbose --all'
+alias gp='git push'
+alias gpl='git pull'
+alias gs='git status'
+
+# ls
 alias l='ls -AL --group-directories-first --color=auto'
 alias ls='ls -L --group-directories-first --color=auto'
 alias lh='ls -lh' 		# Lists human readable sizes.
@@ -99,16 +103,11 @@ alias pacI='sudo pacman --upgrade'
 alias pacX='sudo pacman --remove --nosave --recursive'
 alias pacx='sudo pacman --remove'
 
-# git
-alias ga='git add'
-alias gc='git commit --verbose '
-alias gca='git commit --verbose --all'
-alias gp='git push'
-alias gpl='git pull'
-alias gs='git status'
-
-alias ds='dirs -v'
-for index ({1..9}) alias "$index"="cd +${index}"; unset index
+# tmux
+source ~/scripts/tmuxinator.zsh
+alias td='tmux detach'
+alias tm='tmuxinator start lh'
+alias tw='tmuxinator start wee'
 
 # fix git complete hangs?
 __git_files () { 
