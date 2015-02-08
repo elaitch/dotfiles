@@ -1,3 +1,5 @@
+# My first zshrc
+
 typeset -U path
 export PATH="`ruby -e 'print Gem.user_dir'`/bin:$PATH"
 
