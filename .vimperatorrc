@@ -1,14 +1,14 @@
 "3.5 (created: 2012/08/04 00:41:20)
 
 highlight Bell border: none; background-color: #f2f2f2;
-highlight CmdLine font-size: 12px; background: #454545; color: #f2f2f2; -moz-transition: all 0.25s;
+highlight CmdLine font-size: 12px; background: #ff85e0; color: #222222; -moz-transition: all 0.25s;
 highlight CmdLine>* font-family: ;
 highlight CmdOutput white-space: pre; font-family: ; height 120px;
-highlight CompDesc width: 500px; max-width: 500px; color: #efefef;
+highlight CompDesc width: 500px; max-width: 500px; color: #222222;
 highlight CompDesc[selected] color: #222222 ; background: #ff85e0;
 highlight CompItem font-size: 12px;
 highlight CompItem[selected] color: #222222 ; background: #ff85e0;
-highlight CompTitle font-size: 12px; font-weight: bold; background: #ffe494;
+highlight CompTitle font-size: 12px; font-weight: bold; background: #ff85e0;
 highlight CompTitle>* color: #222222; padding: 2px 0.5ex;
 highlight ContentSeparator border: 1px; display: -moz-box;
 highlight Disabled color: red;:
@@ -25,18 +25,18 @@ highlight InfoMsg color: #f2f2f2; background: #454545; font-size: 12px; font-fam
 highlight Keyword color: khaki;
 highlight LineNr color: #ffd0d0; background: #454545;
 highlight Message white-space: normal; min-width: 100%; padding-left: 2em; text-indent: -2em; display: block; font-size: 12px; 
-highlight ModeMsg color: #f2f2f2; background: #454545; font-size: 12px;  font-family: Dejavu Sans Mono; 
-highlight MoreMsg color: #94B8B8; background: #454545; font-size: 12px;  font-family: Dejavu Sans Mono;  
+highlight ModeMsg color: #f2f2f2; background: #ffe494; font-size: 12px;  font-family: Dejavu Sans Mono; 
+highlight MoreMsg color: #94B8B8; background: #ffe494; font-size: 12px;  font-family: Dejavu Sans Mono;  
 highlight NonText color: #5c738a D; min-height: 16px; padding-left: 2px; font-size: 12px;   font-family: Dejavu Sans Mono; 
-highlight Normal color: #f2f2f2; background: #454545; font-size: 12px; font-family: Dejavu Sans Mono;  
+highlight Normal color: #222222; background: #ffe494; font-size: 12px; font-family: Dejavu Sans Mono;  
 highlight Preview color: #5c738a D; font-size: 12px;  font-family: Dejavu Sans Mono; 
 highlight Prompt background: url("chrome://liberator/skin/prompt.png"); width: 12px; background-position: center; background-repeat: no-repeat;
-highlight PromptText color: #f2f2f2; background: #454545; font-size: 12px;  font-family: Dejavu Sans Mono; 
-highlight Question color: #f2f2f2; background: #454545; font-weight: bold;
-highlight StatusLine color: #f2f2f2; background: transparent; font-weight: normal; font-size: 12px; font-family: Dejavu Sans Mono; 
+highlight PromptText color: #222222; background: #ffe494; font-size: 12px;  font-family: Dejavu Sans Mono; 
+highlight Question color: #f2f2f2; background: #ffe494; font-weight: bold;
+highlight StatusLine color: #222222; background: transparent; font-weight: normal; font-size: 12px; font-family: Dejavu Sans Mono; 
 highlight Tag color: #f2f2f2;
-highlight Title color: #f2f2f2; background: #454545; font-weight: bold;
-highlight URL text-decoration: none; color: #efefef;
+highlight Title color: #f2f2f2; background: #ffe494; font-weight: bold;
+highlight URL text-decoration: none; color: #222222;
 highlight WarningMsg color: #f2f2f2; background: #C8567C; font-size: 12px;  font-family: Dejavu Sans Mono;  
 noremap k kk
 noremap j jj
