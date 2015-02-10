@@ -4,11 +4,12 @@ highlight Bell border: none; background-color: #f2f2f2;
 highlight CmdLine font-size: 12px; background: #454545; color: #f2f2f2; -moz-transition: all 0.25s;
 highlight CmdLine>* font-family: ;
 highlight CmdOutput white-space: pre; font-family: ; height 120px;
-highlight CompDesc width: 500px; max-width: 500px; color: #A3A3A3;
+highlight CompDesc width: 500px; max-width: 500px; color: #efefef;
+highlight CompDesc[selected] color: #222222 ; background: #ff85e0;
 highlight CompItem font-size: 12px;
-highlight CompItem[selected] color: #f2f2f2 ; background: #383838;
-highlight CompTitle font-size: 12px; font-weight: bold; background: #337EFF;
-highlight CompTitle>* color: #efefef; padding: 2px 0.5ex;
+highlight CompItem[selected] color: #222222 ; background: #ff85e0;
+highlight CompTitle font-size: 12px; font-weight: bold; background: #ffe494;
+highlight CompTitle>* color: #222222; padding: 2px 0.5ex;
 highlight ContentSeparator border: 1px; display: -moz-box;
 highlight Disabled color: red;:
 highlight Enabled color: #006666;

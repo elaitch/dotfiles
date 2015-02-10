@@ -69,10 +69,12 @@ bindkey  '^[[Z' reverse-menu-complete
 
 # general
 alias rm='rm -iv'
+alias cp='cp -iv'
+alias mv='mv -iv'
 alias mkdir='mkdir -pv'
 alias grep='grep --color=auto'
-alias hl='cat ~/documents/ell'
-alias hs='cat ~/documents/cs'
+alias csl='cat ~/documents/ell'
+alias cse='cat ~/documents/cs'
 alias virtualBox='virtualbox'
 alias ds='dirs -v'
 for index ({1..9}) alias "$index"="cd +${index}"; unset index
@@ -98,6 +100,7 @@ alias lca='ls -Alhtrc' 		# + all
 
 # pacman
 alias pacU='sudo pacman -Syu'
+alias pacq='pacman -Sii'
 alias pacQ='pacman -Qii'
 alias pacI='sudo pacman --upgrade'
 alias pacX='sudo pacman --remove --nosave --recursive'

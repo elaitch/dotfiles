@@ -10,8 +10,13 @@ xbindkeys
 setxkbmap -option compose:ralt -option ctrl:nocaps
 
 # blue bg 
-hsetroot -solid '#335085'
+#hsetroot -solid '#335085'
 
+# img bg
+hsetroot -center /home/lawren/images/arch/hk2.jpg 
+
+# simple status
+#conky --config=$HOME/.c2rc | while read -r; do xsetroot -name "$REPLY"; done &
 
 # hide cursor
 unclutter -noevents -idle 3 &
@@ -22,8 +27,8 @@ nvidia-settings -a '[gpu:0]/GPUPowerMizerMode=1'
 # this is stupid
 pactl list sinks
 
-# simple status
-sleep 5s && conky | dzen2 -x 1000 -w 1600 -ta r -bg "#222222" -fn 'Ubuntu Mono-10.5' -e 'onstart=raise;button1=togglehide;entertitle=unhide' & 
+# dzen status
+sleep 5s && conky | dzen2 -x 1143 -w 1600 -ta r -bg "#FF85E0" -fn 'Ubuntu Mono-11' -e 'onstart=raise;button1=togglehide;entertitle=unhide' & 
 
 # shadows are FANCY
 compton --config /home/lawren/dotfiles/.config/compton/compton.conf -b
