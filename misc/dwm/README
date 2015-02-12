@@ -1,0 +1,17 @@
+dwm - dynamic window manager
+============================
+with the following patches:
+
+-  attachaside
+-  bstack
+-  centerwindow
+-  gaplessgrid
+-  hide vacant tags
+-  new master
+-  nextprev
+-  pertag
+-  push
+-  single window no border
+-  swapfocus
+
+
