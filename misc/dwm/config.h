@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const char font[]            = "-*-termsyn.icons-medium-*-*-*-14-*-*-*-*-*-*-*";
+static const char font[]            = "-*-terminus-medium-*-*-*-14-*-*-*-*-*-*-*";
 static const char normbordercolor[] = "#efefef";
 static const char normbgcolor[]     = "#222222";
 static const char normfgcolor[]     = "#dddddd"; 
@@ -26,10 +26,6 @@ static const Rule rules[] = {
          *      WM_NAME(STRING) = title
          */
         /* class      instance    title       tags mask     isfloating   monitor */
-	{ "feh",     NULL,       NULL,       0,            True,        -1 },
-	{  NULL ,     NULL,       "ranger",   1 << 3,       False,       -1 },
-        {  NULL ,     NULL,       "cmus",     1 << 5,       False,       -1 },
-	{  "Qbittorrent",     NULL,       NULL,   1 << 4,       False,       -1 },    
         {  NULL,      NULL,       "Firefox Preferences",       0,            True, -1 },    
         {  NULL,      NULL,       "Tab Mix Plus Options",       0,            True, -1 },
         {  NULL,      NULL,       "Classic Theme Restorer",       0,            True, -1 },
@@ -46,11 +42,11 @@ static const Bool resizehints = False; /* True means respect size hints in tiled
 
 static const Layout layouts[] = { 
         /* symbol     arrange function */
-         { "þ",      tile },     /* first entry is default */
-         { "ý",      NULL },     /* no layout function means floating behavior */
-         { "ô",      monocle },
-         { "ú",      gaplessgrid },
-	 { "û",      bstack},	
+         { "[T]",      tile },     /* first entry is default */
+         { "[F}",      NULL },     /* no layout function means floating behavior */
+         { "[M]",      monocle },
+         { "[G]",      gaplessgrid },
+	 { "[B]",      bstack},	
 };
 
 /* key definitions */
@@ -69,9 +65,7 @@ static const Layout layouts[] = {
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", font, "-nb", normbgcolor, "-nf", normfgcolor, "-sb", selbgcolor, "-sf", selfgcolor, NULL };
 static const char *termcmd[]  = { "urxvtc", NULL };
-static const char   *firefox[] = { "firefox", NULL};
 static const char   *ranger[] = { "urxvtc", "-title", "ranger", "-e", "ranger", NULL };
-static const char   *chrome[] = { "google-chrome-stable", NULL };
 static const char *vimp[] = { "/home/lawren/scripts/vimp.sh", NULL };
 
 
@@ -80,8 +74,6 @@ static Key keys[] = {
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_r,      spawn,          {.v = ranger } },
-        { MODKEY,                       XK_a,      spawn,          {.v = firefox } },
-	{ MODKEY,                       XK_e,     spawn,         {.v = chrome } },
         { MODKEY,                       XK_v,     spawn,         {.v = vimp } },
 	{ MODKEY|ShiftMask,             XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
