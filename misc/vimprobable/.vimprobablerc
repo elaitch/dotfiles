@@ -1,0 +1,5 @@
+set useragent="Vimprobable2 (X11; U; Unix; en-US) AppleWebKit/531.2+ Compatible (Safari)"
+set defaultsearch="g"
+set sansfont=verdana
+set scrollbars=false
+set statusbar=false
