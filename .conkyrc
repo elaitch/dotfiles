@@ -3,11 +3,11 @@ out_to_console yes
 update_interval 3.0
 total_run_times 0
 use_spacer left
-default_color #efefef
+default_color #222222
 short_units yes
 pad_percents 2
 
 text
-^fg(\#dddddd)^i(/$HOME/images/xbm/dwm3.xbm)-^fg(\#efefef)6.1^fg(\#005577) ^i(/$HOME/images/xbm/bar2.xbm) ^fg(\#dddddd)^fg(\#dddddd)^i(/$HOME/images/xbm/diskette.xbm)^fg(\#efefef) ${execpi 1500 checkupdates | wc -l} ^fg(\#005577)^i(/$HOME/images/xbm/bar2.xbm) ^fg(\#dddddd)^fg(\#dddddd)^i(/$HOME/images/xbm/spkr_01.xbm) ^fg(\#efefef)${exec amixer | grep -m1 "Front Left:" | cut -c 31-33 }^fg(\#005577) ^i(/$HOME/images/xbm/bar2.xbm) ^fg(\#dddddd)^i(/$HOME/images/xbm/net_up_03.xbm)^fg(\#efefef) ${upspeed enp3s0} ^fg(\#005577)^i(/$HOME/images/xbm/bar2.xbm) ^fg(\#dddddd)^i(/$HOME/images/xbm/net_down_03.xbm)^fg(\#efefef) ${downspeed enp3s0} ^fg(\#005577)^i(/$HOME/images/xbm/bar2.xbm) ^fg(\#dddddd)^i(/$HOME/images/xbm/cpu.xbm)^fg(\#efefef) $cpu% ^fg(\#005577)^i(/$HOME/images/xbm/bar2.xbm)^fg(\#dddddd) ^i(/$HOME/images/xbm/temp.xbm) ^fg(\#efefef)${execi 10 sensors | grep "Physical id 0:" | cut -c 18-24} ^fg(\#005577)^i(/$HOME/images/xbm/bar2.xbm) ^fg(\#dddddd)^i(/$HOME/images/xbm/mem.xbm) ^fg(\#efefef)$mem ^fg(\#005577)^i(/$HOME/images/xbm/bar2.xbm) ^fg(\#dddddd)^i(/$HOME/images/xbm/clock.xbm) ^fg(\#efefef)${time %a, %b %d}^fg(\#005577)^fg(\#efefef)^fg(\#005577) ^i(/$HOME/images/xbm/bar2.xbm)^fg(\#efefef) ${time %I:%M%p}
+^fg(\#2a2a2a)^i(/$HOME/images/xbm/dwm3.xbm)-^fg(\#222222)6.1^fg(\#ffe494) ^i(/$HOME/images/xbm/bar2.xbm) ^fg(\#2a2a2a)^fg(\#2a2a2a)^i(/$HOME/images/xbm/diskette.xbm)^fg(\#222222) ${execpi 1500 checkupdates | wc -l} ^fg(\#ffe494)^i(/$HOME/images/xbm/bar2.xbm) ^fg(\#2a2a2a)^fg(\#2a2a2a)^i(/$HOME/images/xbm/spkr_01.xbm) ^fg(\#222222)${exec amixer | grep -m1 "Front Left:" | cut -c 31-33 }^fg(\#ffe494) ^i(/$HOME/images/xbm/bar2.xbm) ^fg(\#2a2a2a)^i(/$HOME/images/xbm/net_up_03.xbm)^fg(\#222222) ${upspeed enp3s0} ^fg(\#ffe494)^i(/$HOME/images/xbm/bar2.xbm) ^fg(\#2a2a2a)^i(/$HOME/images/xbm/net_down_03.xbm)^fg(\#222222) ${downspeed enp3s0} ^fg(\#ffe494)^i(/$HOME/images/xbm/bar2.xbm) ^fg(\#2a2a2a)^i(/$HOME/images/xbm/cpu.xbm)^fg(\#222222) $cpu% ^fg(\#ffe494)^i(/$HOME/images/xbm/bar2.xbm)^fg(\#2a2a2a) ^i(/$HOME/images/xbm/temp.xbm) ^fg(\#222222)${execi 10 sensors | grep "Physical id 0:" | cut -c 18-24} ^fg(\#ffe494)^i(/$HOME/images/xbm/bar2.xbm) ^fg(\#2a2a2a)^i(/$HOME/images/xbm/mem.xbm) ^fg(\#222222)$mem ^fg(\#ffe494)^i(/$HOME/images/xbm/bar2.xbm) ^fg(\#2a2a2a)^i(/$HOME/images/xbm/clock.xbm) ^fg(\#222222)${time %a, %b %d}^fg(\#ffe494)^fg(\#222222)^fg(\#ffe494) ^i(/$HOME/images/xbm/bar2.xbm)^fg(\#222222) ${time %I:%M%p}
 
 
