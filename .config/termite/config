@@ -1,0 +1,58 @@
+[options]
+scroll_on_output = true
+scroll_on_keystroke = true
+audible_bell = true
+mouse_autohide = false
+allow_bold = true
+dynamic_title = true
+urgent_on_bell = true
+clickable_url = true
+browser = firefox
+font = Ubuntu mono 10.5
+#font = Droid Sans Mono 9
+scrollback_lines = 10000
+search_wrap = true
+cursor_blink = off
+cursor_shape = block
+
+# set size hints for the window
+#size_hints = false
+# emit escape sequences for other keys modified by Control
+#modify_other_keys = false
+
+[colors]
+
+#cursor = #efefef
+foreground = #eeeeee
+foreground_bold = #eeeeee
+background = #222222
+
+# colors from color0 to color254 can be set
+color0 = #222222
+color1 = #ff6199
+color2 = #FFe494
+color3 = #ffa8be
+color4 = #99b3ff
+color5 = #b399ff
+color6 = #ff85e0
+color7 = #fdfdfd
+color8 = #777777
+color9 = #ff6188
+color10 = #ffe494
+color11 = #ffa8be
+color12 = #99b3ff
+color13 = #b399ff
+color14 = #ff85e0
+color15 = #efefef
+
+[hints]
+font = Ubuntu Mono 11
+foreground = #222222
+background = #b399ff
+active_foreground = #222222
+active_background = #ffe494
+padding = 2
+border = #222222
+border_width = 0.5
+roundness = 2.0
+# vim: ft=dosini cms=#%s
