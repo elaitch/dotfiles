@@ -13,7 +13,7 @@ highlight CompTitle>* color: #222222; padding: 2px 0.5ex;
 highlight ContentSeparator border: 1px; display: -moz-box;
 highlight Disabled color: red;:
 highlight Enabled color: #006666;
-highlight ErrorMsg color: #222222; background: #C8567C; font-size: 12px;  font-family: Dejavu Sans Mono; 
+highlight ErrorMsg color: #222222; background: #EFEFEF; font-size: 12px;  font-family: Dejavu Sans Mono; 
 highlight Filter color: #5c738a D;
 highlight FrameIndicator background-color: red; opacity: 0.5; z-index: 999; position: fixed; top: 0; bottom: 0; left: 0; right: 0;
 highlight Hint font-family: Dejavu Sans Mono; font-size: 11px !important; font-weight: bold !important; color: #f2f2f2 !important; background-color: rgba(0, 0, 0, 0.6) !important; border: solid 1px #000000 !important; position: absolute !important;

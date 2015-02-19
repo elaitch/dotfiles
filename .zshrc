@@ -8,6 +8,7 @@ zmodload zsh/terminfo
 source ~/dotfiles/zsh/keys.zsh
 source ~/dotfiles/zsh/history.zsh
 source ~/dotfiles/zsh/completion.zsh
+source /etc/profile.d/vte.sh
 
 # Directory options
 setopt AUTO_CD 			# Auto changes to a directory without typing cd.
