@@ -29,20 +29,20 @@ background = #222222
 
 # colors from color0 to color254 can be set
 color0 = #222222
-color1 = #ff6199
-color2 = #FFe494
-color3 = #ffa8be
-color4 = #99b3ff
-color5 = #b399ff
-color6 = #ff85e0
+color1 = #FF7593
+color2 = #75FF9C
+color3 = #FFE175
+color4 = #7593FF
+color5 = #9C75FF
+color6 = #75FFE1
 color7 = #fdfdfd
 color8 = #777777
-color9 = #ff6188
-color10 = #ffe494
-color11 = #ffa8be
-color12 = #99b3ff
-color13 = #b399ff
-color14 = #ff85e0
+color9 = #FF9C75
+color10 = #93FF75
+color11 = #D8FF75
+color12 = #75D8FF
+color13 = #E175FF
+color14 = #75FFE1
 color15 = #efefef
 
 [hints]

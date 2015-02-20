@@ -10,7 +10,7 @@ xbindkeys
 setxkbmap -option compose:ralt -option ctrl:nocaps
 
 # img bg
-hsetroot -center /home/lawren/images/arch/hk3.jpg
+hsetroot -solid '#007BA8'
 
 # hide cursor
 unclutter -noevents -idle 3 &
@@ -22,10 +22,10 @@ nvidia-settings -a '[gpu:0]/GPUPowerMizerMode=1'
 pactl list sinks
 
 # dzen status
-sleep 5s && conky | dzen2 -x 1167 -w 745 -ta r -bg "#FF85E0" -fn 'Ubuntu Mono-11' -e 'onstart=raise;button1=togglehide;entertitle=unhide' & 
+sleep 5s && conky | dzen2 -x 1167 -w 745 -ta r -bg "#222222" -fn 'Ubuntu Mono-11' -e 'onstart=raise;button1=togglehide;entertitle=unhide' & 
 
 # shadows are FANCY
-# compton --config /home/lawren/dotfiles/.config/compton/compton.conf -b
+compton --config /home/lawren/dotfiles/.config/compton/compton.conf -b
 
 # automount
 udiskie &

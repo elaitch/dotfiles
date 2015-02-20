@@ -73,7 +73,7 @@ prompt_pure_precmd() {
 	# git info
 	vcs_info
 
-	local prompt_pure_preprompt="%F{6}%~%F{12}$vcs_info_msg_0_`prompt_pure_git_dirty` $prompt_pure_username%f %F{15}`prompt_pure_cmd_exec_time`%f "
+	local prompt_pure_preprompt="%F{12}%~%F{4}$vcs_info_msg_0_`prompt_pure_git_dirty` $prompt_pure_username%f %F{15}`prompt_pure_cmd_exec_time`%f "
 	print -P $prompt_pure_preprompt
 
 	# check async if there is anything to pull
@@ -122,7 +122,7 @@ prompt_pure_setup() {
 	[[ "$SSH_CONNECTION" != '' ]] && prompt_pure_username='%n@%m '
 
 	# prompt turns red if the previous command didn't exit with 0
-	PROMPT='%(?.%F{white}.%F{9})>%f'
+	PROMPT='%(?.%F{white}.%F{1})>%f'
 }
 
 prompt_pure_setup "$@"
