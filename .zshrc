@@ -43,7 +43,7 @@ setopt HIST_BEEP 		# Beep when accessing non-existent history.
 # Prompt
 autoload -U promptinit && promptinit
 prompt pure
-PURE_GIT_UNTRACKED_DIRTY=1
+PURE_GIT_UNTRACKED_DIRTY=0
 
 # Dircolors
 autoload -U colors && colors
