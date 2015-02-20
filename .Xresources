@@ -56,28 +56,28 @@ URxvt*colorUL:               #ffe494
 *color8:#777777
 
 !red
-*color1:#ff6188
-*color9:#ff6188
+*color1:#FF7593
+*color9:#FF9C75
 
 !green
-*color2:#ffe494
-*color10:#ffe494
+*color2:#75FF9C
+*color10:#93ff75
 
 !yellow
-*color3:#ffa8be
-*color11:#ffa8be
+*color3:#FFE175
+*color11:#D8FF75
 
 !blue
-*color4:#99b3ff
-*color12:#99b3ff
+*color4:#7593FF
+*color12:#75D8FF
 
 !magenta
-*color5:#b399ff
-*color13:#b399ff
+*color5:#9c75ff
+*color13:#75ffe1
 
 !cyan
-*color6:#ff85e0
-*color14:#ff85e0
+*color6:#75ffe1
+*color14:#efefef
 
 
 !white

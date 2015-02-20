@@ -10,7 +10,7 @@ xbindkeys
 setxkbmap -option compose:ralt -option ctrl:nocaps
 
 # img bg
-hsetroot -solid '#007BA8'
+hsetroot -solid '#008BC2'
 
 # hide cursor
 unclutter -noevents -idle 3 &
