@@ -41,7 +41,7 @@ prompt_pure_git_dirty() {
 	[[ "$PURE_GIT_UNTRACKED_DIRTY" == 0 ]] && local umode="-uno" || local umode="-unormal"
 	command test -n "$(git status --porcelain --ignore-submodules ${umode})"
 
-	(($? == 0)) && echo '%F{11} %f'
+	(($? == 0)) && echo '%F{3} %f'
 }
 
 # displays the exec time of the last command if set threshold was exceeded
@@ -73,7 +73,7 @@ prompt_pure_precmd() {
 	# git info
 	vcs_info
 
-	local prompt_pure_preprompt="%F{12}%~%F{4}$vcs_info_msg_0_`prompt_pure_git_dirty` $prompt_pure_username%f %F{15}`prompt_pure_cmd_exec_time`%f "
+	local prompt_pure_preprompt="%F{4}%~%F{8}$vcs_info_msg_0_`prompt_pure_git_dirty` $prompt_pure_username%f %F{15}`prompt_pure_cmd_exec_time`%f "
 	print -P $prompt_pure_preprompt
 
 	# check async if there is anything to pull

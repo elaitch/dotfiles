@@ -8,6 +8,7 @@ export SYSTEMD_PAGER="/usr/bin/less -R"
 export LESS=-R
 export PAGER=less
 export DISABLE_AUTO_TITLE=true
+export GREP_COLOR='1;33'
 
 # more less colours				# Hints, basically how these effect my manpages		
 export LESS_TERMCAP_mb=$'\E[01;31m'		# Blink? Not sure where this gets used yet! (bold/red) 

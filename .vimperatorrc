@@ -7,7 +7,7 @@ highlight CmdOutput white-space: pre; font-family: ; height 120px;
 highlight CompDesc width: 500px; max-width: 500px; color: #A3A3A3;
 highlight CompItem font-size: 12px;
 highlight CompItem[selected] color: #f2f2f2 ; background: #383838;
-highlight CompTitle font-size: 12px; font-weight: bold; background: #337EFF;
+highlight CompTitle font-size: 12px; font-weight: bold; background: #005577;
 highlight CompTitle>* color: #efefef; padding: 2px 0.5ex;
 highlight ContentSeparator border: 1px; display: -moz-box;
 highlight Disabled color: red;:
