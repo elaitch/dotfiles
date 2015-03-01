@@ -102,7 +102,8 @@ alias lca='ls -Alhtrc' 		# + all
 # pacman
 alias pacU='sudo pacman -Syu'
 alias pacq='pacman -Sii'
-alias pacQ='pacman -Qii'
+alias pacQ='pacman -Qi'
+alias pacQi='pacman -Qii'
 alias pacI='sudo pacman --upgrade'
 alias pacX='sudo pacman --remove --nosave --recursive'
 alias pacx='sudo pacman --remove'
