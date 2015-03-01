@@ -7,6 +7,10 @@ colorscheme lawren
 if &cp | set nocp | endif
 syntax on
 
+" list tabs
+let c_space_errors = 1
+:set listchars=tab:>-
+
 " set
 set background=dark
 set fileencodings=ucs-bom,utf-8,default,latin1
