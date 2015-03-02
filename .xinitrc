@@ -25,7 +25,7 @@ pactl list sinks
 sleep 5s && conky | dzen2 -x 1167 -w 745 -ta r -bg "#222222" -fn 'Ubuntu Mono-11' -e 'onstart=raise;button1=togglehide;entertitle=unhide' & 
 
 # shadows are FANCY
-compton --config /home/lawren/dotfiles/.config/compton/compton.conf -b
+#compton --config /home/lawren/dotfiles/.config/compton/compton.conf -b
 
 # automount
 udiskie &
