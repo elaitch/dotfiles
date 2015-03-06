@@ -5,15 +5,6 @@ set spoolfile = "+INBOX"
 set record = "+[Gmail].Sent\ Mail"
 set postponed = "+imap/Drafts"
 
-
-#POP3
-
-#s mbox_type=maildir
-#set mbox="~/mail/
-#set spoolfile="~/mail/"
-#set folder="~/mail/"
-#set record="~/mail/sent/"
-
 set smtp_url = "smtp://username@gmail.com@smtp.gmail.com:587/"
 set smtp_pass = "password"
 
@@ -25,7 +16,6 @@ set header_cache = ~/.cache/mutt
 # Can be the same folder as header_cache.
 # This will cost important disk usage according to your e-mail amount.
 set message_cachedir = "~/.cache/mutt"
-
 
 unset imap_passive
 
@@ -174,14 +164,6 @@ unignore From: To: Cc: Date: Subject:
 
 auto_view text/html                                              # view html automatically
 alternative_order text/plain text/enriched text/html             # save html for last
-
-## From field gets 25% of remaining space, Subject gets 75%.
-## Remaining space is the total width minus the other fields (35), minus the sidebar (24)
-set my_col_from = `echo $((25 * ($(tput cols)-25) / 100))`
-set my_col_subject = `echo $((75 * ($(tput cols)-25) / 100))`
-
-folder-hook .*[sS]ent.* 'set my_col_from = `echo $((25 * ($(tput cols)-25) / 100))`; set my_col_subject = `echo $((75 * ($(tput cols)-25) / 100))`; set index_format="%2C | %Z [%d] %-$my_col_from.${my_col_from}t (%-4.4c) %-$my_col_subject.${my_col_subject}s"'
-folder-hook ! .*[sS]ent.* 'set my_col_from = `echo $((25 * ($(tput cols)-25) / 100))`; set my_col_subject = `echo $((75 * ($(tput cols)-25) / 100))`; set index_format="%2C | %Z [%d] %-$my_col_from.${my_col_from}F (%-4.4c) %-$my_col_subject.${my_col_subject}s"'
 
 set editor="vim"
 set delete 
