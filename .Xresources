@@ -8,8 +8,8 @@ Xft.rgba:       rgb
 
 ! urxvt fonts
 
-URxvt.font:-*-termsyn-medium-*-*-*-14-*-*-*-*-*-*-*
-!URxvt.font:xft:source code pro medium:pixelsize=11:antialias=true:hinting=true
+!URxvt.font:-*-termsyn-medium-*-*-*-14-*-*-*-*-*-*-*
+URxvt.font:xft:Ubuntu Mono:pixelsize=14:antialias=true:hinting=true
 URxvt.italicFont:xft:droid sans mono:pixelsize=11:italic:antialias=true:hinting=true
 URxvt.xftAntialias: true
 
@@ -23,7 +23,7 @@ URxvt.cursorUnderline: false
 URxvt.depth:       16
 URxvt.imLocale: en_US.utf8
 URxvt.jumpScroll: true
-URxvt.letterSpace: 0
+URxvt.letterSpace: -1
 URxvt.loginShell: true
 URxvt.saveLines: 8192
 URxvt.scrollBar: false
