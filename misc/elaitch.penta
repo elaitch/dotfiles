@@ -1,0 +1,28 @@
+highlight CompDesc color: #ffffff; width: 62%; padding-left: 1em;
+highlight CompItem font-size: 12px;
+highlight CompItem[selected] color: #f2f2f2 ; background: #005577;
+highlight CompTitle font-size: 12px; font-weight: bold; background: #005577;
+highlight CompTitle>* color: #efefef; padding: 0 .5ex;
+highlight CompResult color: #FFFFFF; width: 36%; padding-right: 1%; overflow: hidden
+highlight CompTitleSep /* The element which separates the completion title from its results */ height: 0px; background: #CCCCCC;
+
+highlight Hint font-family: Dejavu Sans Mono; font-size: 13px !important; font-weight: bold !important; color: #f2f2f2 !important; background-color: rgba(0, 0, 0, 0.6) !important; border: solid 1px #000000 !important; position: absolute !important;
+highlight HintActive background: #668CFF !important; color: #f2f2f2 !important;
+highlight HintElem background-color: inherit !important;
+highlight HintImage opacity: .5 !important;
+
+highlight URL /* A URL */ text-decoration: none; color: #eeeeee; font-weight: bold !important; background: inherit;
+
+highlight Normal color: #f2f2f2; background: #454545; font-size: 12px; font-family: Dejavu Sans Mono;  
+highlight PromptText color: #f2f2f2; background: #454545; font-size: 12px;  font-family: Dejavu Sans Mono; 
+highlight Question color: #f2f2f2; background: #454545; font-weight: bold;
+
+highlight StatusLine color: #f2f2f2; background: #454545; font-weight: normal; font-size: 12px; font-family: Dejavu Sans Mono; 
+highlight StatusLineNormal color: #f2f2f2; background: #454545; font-weight: normal; font-size: 12px; font-family: Dejavu Sans Mono; 
+highlight StatusLineBroken color: #f2f2f2; background: #454545; font-weight: normal; font-size: 12px; font-family: Dejavu Sans Mono; 
+highlight StatusLineSecure color: #f2f2f2; background: #454545; font-weight: normal; font-size: 12px; font-family: Dejavu Sans Mono; 
+highlight StatusLineExtended color: #f2f2f2; background: #454545; font-weight: normal; font-size: 12px; font-family: Dejavu Sans Mono; 
+
+highlight Tag color: #f2f2f2;
+highlight Title color: #f2f2f2; background: #454545; font-weight: bold;
+highlight WarningMsg color: #f2f2f2; background: #C8567C; font-size: 12px;  font-family: Dejavu Sans Mono;  
